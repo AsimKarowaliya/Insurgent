@@ -1,0 +1,2095 @@
+fileFormatVersion: 2
+guid: 34af832f27bf4374a8061f71494c5979
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1826830616712570640
+    second: GEN_comix_gravis_0
+  - first:
+      213: 163922521323471809
+    second: GEN_comix_gravis_1
+  - first:
+      213: -7775339255360676144
+    second: GEN_comix_gravis_2
+  - first:
+      213: -1252930484804238697
+    second: GEN_comix_gravis_3
+  - first:
+      213: -5361115218979225603
+    second: GEN_comix_gravis_4
+  - first:
+      213: 723769440851185273
+    second: GEN_comix_gravis_5
+  - first:
+      213: -6333787246237681235
+    second: GEN_comix_gravis_6
+  - first:
+      213: -7405519992172843556
+    second: GEN_comix_gravis_7
+  - first:
+      213: 1240963346304152530
+    second: GEN_comix_gravis_8
+  - first:
+      213: -8777659359737108912
+    second: GEN_comix_gravis_9
+  - first:
+      213: 4652552596285737407
+    second: GEN_comix_gravis_10
+  - first:
+      213: -5149068129157410877
+    second: GEN_comix_gravis_11
+  - first:
+      213: 6218857954227444583
+    second: GEN_comix_gravis_12
+  - first:
+      213: 5018234241837965504
+    second: GEN_comix_gravis_13
+  - first:
+      213: -3441748339288336648
+    second: GEN_comix_gravis_14
+  - first:
+      213: -4028922360884503693
+    second: GEN_comix_gravis_15
+  - first:
+      213: -5667653472199236774
+    second: GEN_comix_gravis_16
+  - first:
+      213: -5525870930720589697
+    second: GEN_comix_gravis_17
+  - first:
+      213: 8986477931615042730
+    second: GEN_comix_gravis_18
+  - first:
+      213: 2023761188699418559
+    second: GEN_comix_gravis_19
+  - first:
+      213: 4128659696631654766
+    second: GEN_comix_gravis_20
+  - first:
+      213: -249470774448159476
+    second: GEN_comix_gravis_21
+  - first:
+      213: 2502775225611878755
+    second: GEN_comix_gravis_22
+  - first:
+      213: 453266537761271954
+    second: GEN_comix_gravis_23
+  - first:
+      213: 4619412125176226168
+    second: GEN_comix_gravis_24
+  - first:
+      213: -7608736531096986054
+    second: GEN_comix_gravis_25
+  - first:
+      213: -4546057556980252430
+    second: GEN_comix_gravis_26
+  - first:
+      213: 5588822390556758497
+    second: GEN_comix_gravis_27
+  - first:
+      213: 7906573584840003418
+    second: GEN_comix_gravis_28
+  - first:
+      213: 8571688672762625266
+    second: GEN_comix_gravis_29
+  - first:
+      213: -7286632147593703224
+    second: GEN_comix_gravis_30
+  - first:
+      213: 1723743038816621866
+    second: GEN_comix_gravis_31
+  - first:
+      213: 1525644994698079042
+    second: GEN_comix_gravis_32
+  - first:
+      213: 5076824611020962607
+    second: GEN_comix_gravis_33
+  - first:
+      213: -5352745395822343236
+    second: GEN_comix_gravis_34
+  - first:
+      213: 3825363335862800932
+    second: GEN_comix_gravis_35
+  - first:
+      213: 224397980520505829
+    second: GEN_comix_gravis_36
+  - first:
+      213: -7088369330452671505
+    second: GEN_comix_gravis_37
+  - first:
+      213: 3608219862563206927
+    second: GEN_comix_gravis_38
+  - first:
+      213: -3047342559935653935
+    second: GEN_comix_gravis_39
+  - first:
+      213: -5981962230942002939
+    second: GEN_comix_gravis_40
+  - first:
+      213: -4409167655623005843
+    second: GEN_comix_gravis_41
+  - first:
+      213: -8052054365830536904
+    second: GEN_comix_gravis_42
+  - first:
+      213: 1205335804500352414
+    second: GEN_comix_gravis_43
+  - first:
+      213: -2410489411552015623
+    second: GEN_comix_gravis_44
+  - first:
+      213: -2586511471692444497
+    second: GEN_comix_gravis_45
+  - first:
+      213: -6042711753057098780
+    second: GEN_comix_gravis_46
+  - first:
+      213: 5404014311628476166
+    second: GEN_comix_gravis_47
+  - first:
+      213: -2830858607219633198
+    second: GEN_comix_gravis_48
+  - first:
+      213: 3695969607477846108
+    second: GEN_comix_gravis_49
+  - first:
+      213: 5273732932457375308
+    second: GEN_comix_gravis_50
+  - first:
+      213: -6320951934602853408
+    second: GEN_comix_gravis_51
+  - first:
+      213: 474088081742155904
+    second: GEN_comix_gravis_52
+  - first:
+      213: -5233716712594084259
+    second: GEN_comix_gravis_53
+  - first:
+      213: 1733523091012126058
+    second: GEN_comix_gravis_54
+  - first:
+      213: -7345890444054093750
+    second: GEN_comix_gravis_55
+  - first:
+      213: 5068009143256330205
+    second: GEN_comix_gravis_56
+  - first:
+      213: 4827923274621315175
+    second: GEN_comix_gravis_57
+  - first:
+      213: -3835654123718347830
+    second: GEN_comix_gravis_58
+  - first:
+      213: 3677305340218281600
+    second: GEN_comix_gravis_59
+  - first:
+      213: 6424407134138100561
+    second: GEN_comix_gravis_60
+  - first:
+      213: 3492862725731226012
+    second: GEN_comix_gravis_61
+  - first:
+      213: -1199716295253217754
+    second: GEN_comix_gravis_62
+  - first:
+      213: 3575520922722353064
+    second: GEN_comix_gravis_63
+  - first:
+      213: -8403703187330556856
+    second: GEN_comix_gravis_64
+  - first:
+      213: -7651050282963528875
+    second: GEN_comix_gravis_65
+  - first:
+      213: -5654619834715036354
+    second: GEN_comix_gravis_66
+  - first:
+      213: -9104621296550113545
+    second: GEN_comix_gravis_67
+  - first:
+      213: -4888064358233170275
+    second: GEN_comix_gravis_68
+  - first:
+      213: -7988013010540329476
+    second: GEN_comix_gravis_69
+  - first:
+      213: 7524038789827062717
+    second: GEN_comix_gravis_70
+  - first:
+      213: 2354997000661530775
+    second: GEN_comix_gravis_71
+  - first:
+      213: 3157980038158690610
+    second: GEN_comix_gravis_72
+  - first:
+      213: 4805805210643297443
+    second: GEN_comix_gravis_73
+  - first:
+      213: 2189758148182803857
+    second: GEN_comix_gravis_74
+  - first:
+      213: 313888659434269677
+    second: GEN_comix_gravis_75
+  - first:
+      213: 823612036759772216
+    second: GEN_comix_gravis_76
+  - first:
+      213: -1443817939936793574
+    second: GEN_comix_gravis_77
+  - first:
+      213: -4872081423398490978
+    second: GEN_comix_gravis_78
+  - first:
+      213: -9217775535866763300
+    second: GEN_comix_gravis_79
+  - first:
+      213: 6536617149670102854
+    second: GEN_comix_gravis_80
+  - first:
+      213: 5414203696229330351
+    second: GEN_comix_gravis_81
+  - first:
+      213: 8479791362391468341
+    second: GEN_comix_gravis_82
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 64
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: GEN_comix_gravis_0
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 855
+        width: 60
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26851c61d1755354e9a9b6f6c0a20dac
+      internalID: 1826830616712570640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GEN_comix_gravis_1
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 854
+        width: 61
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2445da7a13c410848abce4b118af0668
+      internalID: 163922521323471809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GEN_comix_gravis_2
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 854
+        width: 57
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f6ba2e21fb4beb4a9e4eefb1a6ac9c9
+      internalID: -7775339255360676144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GEN_comix_gravis_3
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 854
+        width: 58
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5a292ac9a314c946a8aac848d91297a
+      internalID: -1252930484804238697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GEN_comix_gravis_4
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 762
+        width: 55
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e22dfb2dcd2c0d47bc9c9ba9b947a79
+      internalID: -5361115218979225603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GEN_comix_gravis_5
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 762
+        width: 58
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48b3d1ee6085c5746930cf7b54278443
+      internalID: 723769440851185273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GEN_comix_gravis_6
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 762
+        width: 68
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa7b62aa669c5e543ab21976c4ec06a1
+      internalID: -6333787246237681235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GEN_comix_gravis_7
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 762
+        width: 62
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b08fdb4003b41ad4cb904f93bede6e31
+      internalID: -7405519992172843556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GEN_comix_gravis_8
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 763
+        width: 52
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a16032d01038e64f9b0d89c234940d4
+      internalID: 1240963346304152530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GEN_comix_gravis_9
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 763
+        width: 53
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 611a1b067f38b7f4fac36e88825d3ff1
+      internalID: -8777659359737108912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GEN_comix_gravis_10
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 761
+        width: 57
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b331c6c07eafcf5498ac4374abebf085
+      internalID: 4652552596285737407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GEN_comix_gravis_11
+      rect:
+        serializedVersion: 2
+        x: 492
+        y: 761
+        width: 58
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 561f90a91c42e7b4bb8dfe44078aa4b1
+      internalID: -5149068129157410877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GEN_comix_gravis_12
+      rect:
+        serializedVersion: 2
+        x: 557
+        y: 764
+        width: 61
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27792d8f252bce74fabff14f2aaa5998
+      internalID: 6218857954227444583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GEN_comix_gravis_13
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 718
+        width: 10
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8856d64cc4c34ca45bfedc42298929d2
+      internalID: 5018234241837965504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GEN_comix_gravis_14
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 717
+        width: 15
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a421a07fa51aec429ac4b54b13fbdd7
+      internalID: -3441748339288336648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GEN_comix_gravis_15
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 719
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47a54f0369865494599128423e5dabae
+      internalID: -4028922360884503693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GEN_comix_gravis_16
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 733
+        width: 14
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ceb928d6307b2474db7371a1704325f2
+      internalID: -5667653472199236774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GEN_comix_gravis_17
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 733
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee6cdb97361c1d24ea9c71813f8ffaae
+      internalID: -5525870930720589697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GEN_comix_gravis_18
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 612
+        width: 45
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acb31aa86338d8c4fb89aa12c7ff2af8
+      internalID: 8986477931615042730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GEN_comix_gravis_19
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 612
+        width: 38
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa5ea22e3ae42f642baa106338bd601e
+      internalID: 2023761188699418559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GEN_comix_gravis_20
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 613
+        width: 38
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5deca821ddc8355498314da96a5b39d7
+      internalID: 4128659696631654766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GEN_comix_gravis_21
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 613
+        width: 44
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1088a6ffb95020d4494e5581cfacecea
+      internalID: -249470774448159476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GEN_comix_gravis_22
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 612
+        width: 51
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 116f75194fd12c04e810546d5cbfcdd4
+      internalID: 2502775225611878755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GEN_comix_gravis_23
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 612
+        width: 49
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f6705b2b80ead14fa9d4d1f80f2714d
+      internalID: 453266537761271954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GEN_comix_gravis_24
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 611
+        width: 38
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5082792531d7f7b44a56e92816f381c4
+      internalID: 4619412125176226168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GEN_comix_gravis_25
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 661
+        width: 18
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8c66c2dbff69ba47ac955cf82b0dc39
+      internalID: -7608736531096986054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GEN_comix_gravis_26
+      rect:
+        serializedVersion: 2
+        x: 437
+        y: 609
+        width: 89
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: faabca2de23174e40bccde59478c0e95
+      internalID: -4546057556980252430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GEN_comix_gravis_27
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 607
+        width: 135
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cb5b90dcc8d72a47ac96acae6952b0b
+      internalID: 5588822390556758497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GEN_comix_gravis_28
+      rect:
+        serializedVersion: 2
+        x: 686
+        y: 605
+        width: 81
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 384b88aff3e270e4f823a4d5e87545d7
+      internalID: 7906573584840003418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GEN_comix_gravis_29
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 653
+        width: 64
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bfcac1ddef29cf43ab4a80392544a37
+      internalID: 8571688672762625266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GEN_comix_gravis_30
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 482
+        width: 67
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17cceac8d2dd23240b08e0fda59fe9ab
+      internalID: -7286632147593703224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GEN_comix_gravis_31
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 480
+        width: 69
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bb0ff322dbb8674baaedb9ff5525354
+      internalID: 1723743038816621866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GEN_comix_gravis_32
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 483
+        width: 50
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb29d4047f383a041acf6898e9d3a684
+      internalID: 1525644994698079042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GEN_comix_gravis_33
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 514
+        width: 63
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f99a21458f54ac34fa37f08d81d2d9da
+      internalID: 5076824611020962607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GEN_comix_gravis_34
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 524
+        width: 61
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aba1b40f2bc5f2a4b930cf9add10ddd3
+      internalID: -5352745395822343236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GEN_comix_gravis_35
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 515
+        width: 63
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b141cbb9d4cb79458c41e5929e01c3d
+      internalID: 3825363335862800932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GEN_comix_gravis_36
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 481
+        width: 50
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bf91342a74ad4146b42d24a6dfee321
+      internalID: 224397980520505829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GEN_comix_gravis_37
+      rect:
+        serializedVersion: 2
+        x: 509
+        y: 492
+        width: 57
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61a4baecdf94cc743a316147c57038d2
+      internalID: -7088369330452671505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GEN_comix_gravis_38
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 391
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93b68ae6b35e4df4594c90e9e2f599fe
+      internalID: 3608219862563206927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GEN_comix_gravis_39
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 388
+        width: 77
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac9586dfacc4ab548bbd7f1e319aa015
+      internalID: -3047342559935653935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GEN_comix_gravis_40
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 392
+        width: 106
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ffebbcfd199739418908199dcd582b6
+      internalID: -5981962230942002939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GEN_comix_gravis_41
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 396
+        width: 77
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cbb36925a623c34bb879a8937594fed
+      internalID: -4409167655623005843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GEN_comix_gravis_42
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 294
+        width: 76
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ef725ddd884220449d1e0bb007de0f8
+      internalID: -8052054365830536904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GEN_comix_gravis_43
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 296
+        width: 70
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f151dee0358ad44abc27e4e550c7bfb
+      internalID: 1205335804500352414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GEN_comix_gravis_44
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 296
+        width: 76
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70759153577db184082ad392dfa77431
+      internalID: -2410489411552015623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GEN_comix_gravis_45
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 298
+        width: 81
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e47d0b503339a8408f815a08c7e099f
+      internalID: -2586511471692444497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GEN_comix_gravis_46
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 297
+        width: 67
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10b3e97226063454ca1dfb6235bd8e70
+      internalID: -6042711753057098780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GEN_comix_gravis_47
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 298
+        width: 96
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c22f88c0fa0ebc4e95630f35c517791
+      internalID: 5404014311628476166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GEN_comix_gravis_48
+      rect:
+        serializedVersion: 2
+        x: 499
+        y: 300
+        width: 76
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4abb37d61805b243a45a4f03a71a4f6
+      internalID: -2830858607219633198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GEN_comix_gravis_49
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 298
+        width: 70
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1adf9a08024d7f49bbfef7a22d4d38f
+      internalID: 3695969607477846108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GEN_comix_gravis_50
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 178
+        width: 57
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfd1c22a3eed8b54ba11fcb1478f6c87
+      internalID: 5273732932457375308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GEN_comix_gravis_51
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 180
+        width: 57
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30a3ec6307f28ed49887156b997bcf01
+      internalID: -6320951934602853408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GEN_comix_gravis_52
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 181
+        width: 64
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b38462d00a192f54bb8571bc5bd69040
+      internalID: 474088081742155904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GEN_comix_gravis_53
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 182
+        width: 64
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a39933b534fa1af47a812f5436aa33d4
+      internalID: -5233716712594084259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GEN_comix_gravis_54
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 183
+        width: 64
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f428901aaf8634d48bf1238f89bd85d3
+      internalID: 1733523091012126058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GEN_comix_gravis_55
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 182
+        width: 64
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6ab65f1b4fbb7f4e9e1d9ea85798e77
+      internalID: -7345890444054093750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GEN_comix_gravis_56
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 244
+        width: 23
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6eb0626f7551c3a41877c615586985cf
+      internalID: 5068009143256330205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GEN_comix_gravis_57
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 186
+        width: 94
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b1d0cfdb8ed394449cd676877f1230c
+      internalID: 4827923274621315175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GEN_comix_gravis_58
+      rect:
+        serializedVersion: 2
+        x: 412
+        y: 225
+        width: 28
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6e22f01775e0c4469e3ef9bbfcdaf89
+      internalID: -3835654123718347830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GEN_comix_gravis_59
+      rect:
+        serializedVersion: 2
+        x: 542
+        y: 182
+        width: 96
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 493dfa27e7c3f1d42b73f4ab3e6d279b
+      internalID: 3677305340218281600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GEN_comix_gravis_60
+      rect:
+        serializedVersion: 2
+        x: 638
+        y: 178
+        width: 95
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f0c88fba2d87e7419c4ba28ede5ae5e
+      internalID: 6424407134138100561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GEN_comix_gravis_61
+      rect:
+        serializedVersion: 2
+        x: 734
+        y: 176
+        width: 99
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd90944f01683e7458fad37faf4ce2a2
+      internalID: 3492862725731226012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GEN_comix_gravis_62
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 201
+        width: 29
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb6c581d261ab2f4b919c46809bfff0c
+      internalID: -1199716295253217754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GEN_comix_gravis_63
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 203
+        width: 29
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e92d03129b5495f44aa15431e9d9e413
+      internalID: 3575520922722353064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GEN_comix_gravis_64
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 94
+        width: 98
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a278c3f55e742ff44af39113f6d0d633
+      internalID: -8403703187330556856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GEN_comix_gravis_65
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 91
+        width: 97
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94b9bdaa84a0225439c9c60f7b1d4ede
+      internalID: -7651050282963528875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GEN_comix_gravis_66
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 92
+        width: 94
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9dc1512aa63a11428e3632426ec7b77
+      internalID: -5654619834715036354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GEN_comix_gravis_67
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 92
+        width: 31
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfeb513f602bc334e82cf043ef407691
+      internalID: -9104621296550113545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GEN_comix_gravis_68
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 91
+        width: 40
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bd74f962f57311439a393d5ab8a5bd2
+      internalID: -4888064358233170275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GEN_comix_gravis_69
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 91
+        width: 56
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 456f71b0d31d1a94f9cc8cef2f811607
+      internalID: -7988013010540329476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GEN_comix_gravis_70
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 92
+        width: 56
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2872588b6cf719e40a6c17c0d9b1f7e9
+      internalID: 7524038789827062717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GEN_comix_gravis_71
+      rect:
+        serializedVersion: 2
+        x: 518
+        y: 92
+        width: 40
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18d11b1e0b8d5d14f957518153b0c260
+      internalID: 2354997000661530775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GEN_comix_gravis_72
+      rect:
+        serializedVersion: 2
+        x: 558
+        y: 93
+        width: 31
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd17a564655b08f49bc65dd7ebdf413c
+      internalID: 3157980038158690610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GEN_comix_gravis_73
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 94
+        width: 28
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 964e93aca8eba484ab88af12d148de3f
+      internalID: 4805805210643297443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GEN_comix_gravis_74
+      rect:
+        serializedVersion: 2
+        x: 627
+        y: 94
+        width: 28
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c610e7ea3e2cedf48af6947da14281e4
+      internalID: 2189758148182803857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GEN_comix_gravis_75
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 4
+        width: 63
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcc1c941693b229499801419b21bb4ee
+      internalID: 313888659434269677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GEN_comix_gravis_76
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 0
+        width: 67
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18cba273fd94a134185c0da1cb18ca2c
+      internalID: 823612036759772216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GEN_comix_gravis_77
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 14
+        width: 82
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6848661491116914c8bd555b0dc7e358
+      internalID: -1443817939936793574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GEN_comix_gravis_78
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 5
+        width: 39
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcc467bb760ac5e4f96b9050f28187fd
+      internalID: -4872081423398490978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GEN_comix_gravis_79
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 11
+        width: 51
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5dd22a39303ca7b42847e0269dc1ecc4
+      internalID: -9217775535866763300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GEN_comix_gravis_80
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 9
+        width: 45
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 126659a159de20049b6a86d76e795588
+      internalID: 6536617149670102854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GEN_comix_gravis_81
+      rect:
+        serializedVersion: 2
+        x: 417
+        y: 9
+        width: 77
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13461281c8025d242bffcc2fe7a8b071
+      internalID: 5414203696229330351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GEN_comix_gravis_82
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 7
+        width: 82
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d0dbd0dcf2248e4990377815f5fb74d
+      internalID: 8479791362391468341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

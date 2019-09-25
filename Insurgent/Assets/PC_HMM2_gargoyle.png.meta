@@ -1,0 +1,1063 @@
+fileFormatVersion: 2
+guid: dc390ce84af98f140aa630646e974256
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3409954811830052286
+    second: PC_HMM2_gargoyle_0
+  - first:
+      213: 8405669999065877746
+    second: PC_HMM2_gargoyle_1
+  - first:
+      213: -7690079160083821925
+    second: PC_HMM2_gargoyle_2
+  - first:
+      213: -4693644550059456977
+    second: PC_HMM2_gargoyle_3
+  - first:
+      213: 485719491327185278
+    second: PC_HMM2_gargoyle_4
+  - first:
+      213: -4779669757933370104
+    second: PC_HMM2_gargoyle_5
+  - first:
+      213: 2262759946386107101
+    second: PC_HMM2_gargoyle_6
+  - first:
+      213: 6427950809096883964
+    second: PC_HMM2_gargoyle_7
+  - first:
+      213: 8181352358924646280
+    second: PC_HMM2_gargoyle_8
+  - first:
+      213: -6113183463003197067
+    second: PC_HMM2_gargoyle_9
+  - first:
+      213: -5843795041094664152
+    second: PC_HMM2_gargoyle_10
+  - first:
+      213: 1270113562430989845
+    second: PC_HMM2_gargoyle_11
+  - first:
+      213: -675440767661910258
+    second: PC_HMM2_gargoyle_12
+  - first:
+      213: 4724527966632744849
+    second: PC_HMM2_gargoyle_13
+  - first:
+      213: -8478524118654847866
+    second: PC_HMM2_gargoyle_14
+  - first:
+      213: -3404411978654586989
+    second: PC_HMM2_gargoyle_15
+  - first:
+      213: 1233243098152153948
+    second: PC_HMM2_gargoyle_16
+  - first:
+      213: 5707174720899637663
+    second: PC_HMM2_gargoyle_17
+  - first:
+      213: 370494025233862287
+    second: PC_HMM2_gargoyle_18
+  - first:
+      213: -8092917459445708692
+    second: PC_HMM2_gargoyle_19
+  - first:
+      213: -6924050294198832321
+    second: PC_HMM2_gargoyle_20
+  - first:
+      213: -2035975944204007924
+    second: PC_HMM2_gargoyle_21
+  - first:
+      213: 825249054996952812
+    second: PC_HMM2_gargoyle_22
+  - first:
+      213: -8990885727334395185
+    second: PC_HMM2_gargoyle_23
+  - first:
+      213: 807648490195395641
+    second: PC_HMM2_gargoyle_24
+  - first:
+      213: 7772056282800359529
+    second: PC_HMM2_gargoyle_25
+  - first:
+      213: -2259453468467207713
+    second: PC_HMM2_gargoyle_26
+  - first:
+      213: 5197826572815964529
+    second: PC_HMM2_gargoyle_27
+  - first:
+      213: 8851063027876317726
+    second: PC_HMM2_gargoyle_28
+  - first:
+      213: 9171604120727561371
+    second: PC_HMM2_gargoyle_29
+  - first:
+      213: 586159678060892641
+    second: PC_HMM2_gargoyle_30
+  - first:
+      213: 8282732288574828352
+    second: PC_HMM2_gargoyle_31
+  - first:
+      213: 656981139353586001
+    second: PC_HMM2_gargoyle_32
+  - first:
+      213: 8760539468094450073
+    second: PC_HMM2_gargoyle_33
+  - first:
+      213: 5437285413716155231
+    second: PC_HMM2_gargoyle_34
+  - first:
+      213: 2097072016998453746
+    second: PC_HMM2_gargoyle_35
+  - first:
+      213: 5856357956409635942
+    second: PC_HMM2_gargoyle_36
+  - first:
+      213: 3466391782245827980
+    second: PC_HMM2_gargoyle_37
+  - first:
+      213: 2237189816301205283
+    second: PC_HMM2_gargoyle_38
+  - first:
+      213: -1664446152137228649
+    second: PC_HMM2_gargoyle_39
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 64
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: 0
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: PC_HMM2_gargoyle_0
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 559
+        width: 39
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a42df5d2d64c25a4ea0158abd610195b
+      internalID: -3409954811830052286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC_HMM2_gargoyle_1
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 559
+        width: 38
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e49fa1e18fbeab4793d1395eb8e8315
+      internalID: 8405669999065877746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC_HMM2_gargoyle_2
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 559
+        width: 39
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f1ae286e87231e488daf5ef6d4b9131
+      internalID: -7690079160083821925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC_HMM2_gargoyle_3
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 559
+        width: 41
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a772074ca9be9d4e8da21c647b4ecd1
+      internalID: -4693644550059456977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC_HMM2_gargoyle_4
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 606
+        width: 37
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0558dabcb47f55c49825c9150ada767a
+      internalID: 485719491327185278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC_HMM2_gargoyle_5
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 606
+        width: 37
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1027d251fa8728d4f96a58aa8691b53a
+      internalID: -4779669757933370104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC_HMM2_gargoyle_6
+      rect:
+        serializedVersion: 2
+        x: 547
+        y: 606
+        width: 37
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68936b5cd86f4c74182dd2dca4715c5d
+      internalID: 2262759946386107101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC_HMM2_gargoyle_7
+      rect:
+        serializedVersion: 2
+        x: 670
+        y: 606
+        width: 37
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1869a8a4b327e534999a3a351617ce59
+      internalID: 6427950809096883964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC_HMM2_gargoyle_8
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 558
+        width: 38
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88634ac3a3453494f8ff5ee0e8051038
+      internalID: 8181352358924646280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC_HMM2_gargoyle_9
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 558
+        width: 38
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c04cc975ff9c3254f96f85ab40c095b2
+      internalID: -6113183463003197067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC_HMM2_gargoyle_10
+      rect:
+        serializedVersion: 2
+        x: 559
+        y: 558
+        width: 48
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 518c49195da36d24a946c3f8babaa6f5
+      internalID: -5843795041094664152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC_HMM2_gargoyle_11
+      rect:
+        serializedVersion: 2
+        x: 654
+        y: 558
+        width: 45
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2da6f449de3f06647af65eed0a8ebc5b
+      internalID: 1270113562430989845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC_HMM2_gargoyle_12
+      rect:
+        serializedVersion: 2
+        x: 675
+        y: 562
+        width: 33
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2995dcaf56857f4aa7fc5ea76402c7b
+      internalID: -675440767661910258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC_HMM2_gargoyle_13
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 464
+        width: 56
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3127de5e5cc8733418f2d5d1b1ca289c
+      internalID: 4724527966632744849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC_HMM2_gargoyle_14
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 465
+        width: 62
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fff4de3a186523409c98d6e50bd6bb5
+      internalID: -8478524118654847866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC_HMM2_gargoyle_15
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 465
+        width: 78
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 927a54b9438065840b999ec608c4ec6d
+      internalID: -3404411978654586989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC_HMM2_gargoyle_16
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 465
+        width: 63
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad91b4a8ba2944340b2af787d9cedf4c
+      internalID: 1233243098152153948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC_HMM2_gargoyle_17
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 465
+        width: 51
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c122e0e6841be0418daca98ef1b85cc
+      internalID: 5707174720899637663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC_HMM2_gargoyle_18
+      rect:
+        serializedVersion: 2
+        x: 564
+        y: 465
+        width: 52
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11d9d3858dcd2ce4a8623fe71ee17d58
+      internalID: 370494025233862287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC_HMM2_gargoyle_19
+      rect:
+        serializedVersion: 2
+        x: 649
+        y: 465
+        width: 64
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eeb6e9c810d8ee44988536d08c532c8a
+      internalID: -8092917459445708692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC_HMM2_gargoyle_20
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 361
+        width: 83
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cf2d6c4c5331aa4a8a67fad7b97cdfa
+      internalID: -6924050294198832321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC_HMM2_gargoyle_21
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 361
+        width: 68
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e37cd293088edde46a8f4c55ff716578
+      internalID: -2035975944204007924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC_HMM2_gargoyle_22
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 361
+        width: 59
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22839fa810c9c304692d349416dc4da6
+      internalID: 825249054996952812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC_HMM2_gargoyle_23
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 361
+        width: 63
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c6a1b3bfae72ac43841f5147743c55d
+      internalID: -8990885727334395185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC_HMM2_gargoyle_24
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 272
+        width: 81
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54390c70e45141c4e9f5e4ca21464f2c
+      internalID: 807648490195395641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC_HMM2_gargoyle_25
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 272
+        width: 71
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe5c30283c1a24c4bb3200aefb3c805f
+      internalID: 7772056282800359529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC_HMM2_gargoyle_26
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 272
+        width: 71
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1880c13d839d0e04e8a12a8cdcbb6ce8
+      internalID: -2259453468467207713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC_HMM2_gargoyle_27
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 272
+        width: 84
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b89060233fd19ec439619be049f19713
+      internalID: 5197826572815964529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC_HMM2_gargoyle_28
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 177
+        width: 83
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c752d493affa1843b2447cf6d76523f
+      internalID: 8851063027876317726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC_HMM2_gargoyle_29
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 177
+        width: 67
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd76d00cde2e8f349b65a2520c57c5f8
+      internalID: 9171604120727561371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC_HMM2_gargoyle_30
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 177
+        width: 56
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f4987bb9bc26664c9419f83fcc4ccb7
+      internalID: 586159678060892641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC_HMM2_gargoyle_31
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 177
+        width: 56
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a943a39a67b49cc4d853bd59ea728551
+      internalID: 8282732288574828352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC_HMM2_gargoyle_32
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 88
+        width: 63
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86a9971cb482e4c40bc9938eadf30d76
+      internalID: 656981139353586001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC_HMM2_gargoyle_33
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 88
+        width: 48
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9d2c64f5ee20a4438ce54fbac832d9e
+      internalID: 8760539468094450073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC_HMM2_gargoyle_34
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 88
+        width: 53
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f5b40275651f6140a74045652310d0f
+      internalID: 5437285413716155231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC_HMM2_gargoyle_35
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 7
+        width: 52
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db73eeca9dd7c7348b5c44279a7ae2da
+      internalID: 2097072016998453746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC_HMM2_gargoyle_36
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 7
+        width: 50
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b68ae563b9af5ad448858c19a366deab
+      internalID: 5856357956409635942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC_HMM2_gargoyle_37
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 7
+        width: 42
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5478ff7fee14ac48abbdede5dfbbfa9
+      internalID: 3466391782245827980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC_HMM2_gargoyle_38
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 13
+        width: 38
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 213d696515261614a96b84a76ef1bd2b
+      internalID: 2237189816301205283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC_HMM2_gargoyle_39
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 13
+        width: 41
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3b98189d493fc54a8dbe1c8b3783758
+      internalID: -1664446152137228649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
