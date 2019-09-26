@@ -5,6 +5,7 @@ using UnityEngine;
 public class Weapon : MonoBehaviour
 {
 
+    public Animator animator;
     public Transform firePoint;
     public GameObject bulletPrefab;
 
@@ -14,6 +15,11 @@ public class Weapon : MonoBehaviour
         if (Input.GetButtonDown("Fire1"))
         {
             Shoot();
+            animator.SetBool("IsShooting", true);
+        }
+        else
+        {
+            animator.SetBool("IsShooting", false);
         }
     }
 
