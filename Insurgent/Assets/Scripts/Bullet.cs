@@ -5,6 +5,7 @@ using UnityEngine;
 public class Bullet : MonoBehaviour
 {
 
+    public int damage = 40;
     public float speed = 10f;
     public Rigidbody2D rb;
 
@@ -14,7 +15,16 @@ public class Bullet : MonoBehaviour
         rb.velocity = transform.right * speed;
     }
 
-    
+    void OnTriggerEnter2D(Collider2D hitInfo)
+    {
+        Debug.Log(hitInfo.name);
+        PyroAI enemy = hitInfo.GetComponent<PyroAI>();
+        if (enemy != null)
+        {
+            enemy.TakeDamage(damage);
+        }
+        Destroy(gameObject);
+    }
 
     void OnBecameInvisible()
     {

@@ -9,25 +9,14 @@ public class Weapon : MonoBehaviour
     public Transform firePoint;
     public GameObject bulletPrefab;
 
-    public float Ammo = 3f;
+    public int Ammo;
 
     // Update is called once per frame
     void Update()
     {
 
-        if (Input.GetButtonDown("Fire1") && Ammo > 0)
-        {
-            Ammo -= 1;
-        }
-
-        if (Input.GetButtonDown("Fire1") && Ammo == 0)
-        {
-            Invoke("bulletreset", 3);
-        }
-
         if (Input.GetButtonDown("Fire1") && Ammo > 0) 
         {
-            //Invoke("Shoot", 1);
             Shoot();
             animator.SetBool("IsShooting", true);
         }
@@ -35,15 +24,21 @@ public class Weapon : MonoBehaviour
         {
             animator.SetBool("IsShooting", false);
         }
+
+        if (Ammo == 0)
+        {
+            Invoke("bulletreset", 5);
+        }
     }
 
     void bulletreset()
     {
-        Ammo = 3;
+        Ammo = 5;
     }
 
     void Shoot()
     {
         Instantiate(bulletPrefab, firePoint.position, firePoint.rotation);
+        Ammo--;
     }
 }
