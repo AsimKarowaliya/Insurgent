@@ -22,11 +22,20 @@ public class Weapon : MonoBehaviour
             {
                 timeBtwAttack = startTimeBtwAttack;
                 Shoot();
-                animator.SetBool("IsShooting", true);
             }
             else
             {
                 animator.SetBool("IsShooting", false);
+            }
+
+            if (Input.GetButtonDown("Fire2"))
+            {
+                timeBtwAttack = startTimeBtwAttack;
+                Kick();
+            }
+            else
+            {
+                animator.SetBool("IsKicking", false);
             }
         }
         else
@@ -40,10 +49,11 @@ public class Weapon : MonoBehaviour
     void Shoot()
     {
         Instantiate(bulletPrefab, firePoint.position, firePoint.rotation);
+        animator.SetBool("IsShooting", true);
     }
 
     void Kick()
     {
-
+        animator.SetBool("IsKicking", true);
     }
 }

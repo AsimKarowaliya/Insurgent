@@ -8,7 +8,6 @@ public class PyroAI : MonoBehaviour
     public int health = 100;
     public GameObject DeathEffect;
 
-    // Start is called before the first frame update
     public void TakeDamage(int damage)
     {
         health -= damage;
