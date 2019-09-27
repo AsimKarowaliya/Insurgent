@@ -14,15 +14,7 @@ public class Bullet : MonoBehaviour
         rb.velocity = transform.right * speed;
     }
 
-    void OnTriggerEnter2D(Collider2D hitInfo) 
-    {
-        
-        if(hitInfo.gameObject.name == "burning-ghoul1")
-        {
-        Destroy(hitInfo.gameObject);
-        }
-        
-    }
+    
 
     void OnBecameInvisible()
     {
