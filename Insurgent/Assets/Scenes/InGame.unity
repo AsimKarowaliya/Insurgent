@@ -811,7 +811,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 519420028}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -10.55, y: -0.69099987, z: -10}
+  m_LocalPosition: {x: -10.24, y: -0.6799998, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 936788963}
@@ -1394,7 +1394,7 @@ Rigidbody2D:
   m_Material: {fileID: 0}
   m_Interpolate: 0
   m_SleepingMode: 1
-  m_CollisionDetection: 0
+  m_CollisionDetection: 1
   m_Constraints: 0
 --- !u!4 &1030836112
 Transform:
@@ -3010,6 +3010,8 @@ GameObject:
   - component: {fileID: 1841878762}
   - component: {fileID: 1841878759}
   - component: {fileID: 1841878767}
+  - component: {fileID: 1841878768}
+  - component: {fileID: 1841878769}
   m_Layer: 8
   m_Name: Player
   m_TagString: Untagged
@@ -3094,7 +3096,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1841878758}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -10.55, y: -1.491, z: 0}
+  m_LocalPosition: {x: -10.24, y: -1.48, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1717512724}
@@ -3168,7 +3170,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_JumpForce: 700
-  m_CrouchSpeed: 0.4
+  m_CrouchSpeed: 0.2
   m_MovementSmoothing: 0.05
   m_AirControl: 0
   m_WhatIsGround:
@@ -3195,7 +3197,18 @@ MonoBehaviour:
       Culture=neutral, PublicKeyToken=null
   OnCrouchEvent:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1841878765}
+        m_MethodName: OnCrouching
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: CharacterController2D+BoolEvent, Assembly-CSharp, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &1841878765
@@ -3250,7 +3263,37 @@ MonoBehaviour:
   firePoint: {fileID: 1900588604}
   bulletPrefab: {fileID: 6284649716433431874, guid: 313dc6d54ce246f458f7a4e13536c042,
     type: 3}
-  Ammo: 5
+  timeBtwAttack: 0
+  startTimeBtwAttack: 0.5
+--- !u!58 &1841878768
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1841878758}
+  m_Enabled: 0
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0.7315545, y: -0.46000075}
+  serializedVersion: 2
+  m_Radius: 0.093607426
+--- !u!114 &1841878769
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1841878758}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bc8a162d482feb64194dce703ee4401f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  damage: 40
 --- !u!1 &1892463405
 GameObject:
   m_ObjectHideFlags: 0

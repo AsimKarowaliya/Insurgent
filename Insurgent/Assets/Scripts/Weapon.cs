@@ -9,36 +9,41 @@ public class Weapon : MonoBehaviour
     public Transform firePoint;
     public GameObject bulletPrefab;
 
-    public int Ammo;
+    public float timeBtwAttack;
+    public float startTimeBtwAttack;
 
     // Update is called once per frame
     void Update()
     {
 
-        if (Input.GetButtonDown("Fire1") && Ammo > 0) 
+        if(timeBtwAttack <= 0)
         {
-            Shoot();
-            animator.SetBool("IsShooting", true);
+            if (Input.GetButtonDown("Fire1"))
+            {
+                timeBtwAttack = startTimeBtwAttack;
+                Shoot();
+                animator.SetBool("IsShooting", true);
+            }
+            else
+            {
+                animator.SetBool("IsShooting", false);
+            }
         }
         else
         {
-            animator.SetBool("IsShooting", false);
+            timeBtwAttack -= Time.deltaTime;
         }
 
-        if (Ammo == 0)
-        {
-            Invoke("bulletreset", 5);
-        }
     }
 
-    void bulletreset()
-    {
-        Ammo = 5;
-    }
 
     void Shoot()
     {
         Instantiate(bulletPrefab, firePoint.position, firePoint.rotation);
-        Ammo--;
+    }
+
+    void Kick()
+    {
+
     }
 }
