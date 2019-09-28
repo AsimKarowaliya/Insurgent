@@ -394,12 +394,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!4 &319404112 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 2274743026917805254, guid: f716fa61f6a51f344b5824abddd40501,
-    type: 3}
-  m_PrefabInstance: {fileID: 897740831}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &457850509
 GameObject:
   m_ObjectHideFlags: 0
@@ -827,13 +821,9 @@ MonoBehaviour:
   m_CameraCutEvent:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: Cinemachine.CinemachineBrain+BrainEvent, Cinemachine, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
   m_CameraActivatedEvent:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: Cinemachine.CinemachineBrain+VcamActivatedEvent, Cinemachine, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
 --- !u!1 &570667488
 GameObject:
   m_ObjectHideFlags: 0
@@ -1171,75 +1161,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!1001 &897740831
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 1030836112}
-    m_Modifications:
-    - target: {fileID: 2274743026917805251, guid: f716fa61f6a51f344b5824abddd40501,
-        type: 3}
-      propertyPath: m_Name
-      value: burning-ghoul1 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2274743026917805254, guid: f716fa61f6a51f344b5824abddd40501,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 1.88
-      objectReference: {fileID: 0}
-    - target: {fileID: 2274743026917805254, guid: f716fa61f6a51f344b5824abddd40501,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -0.149
-      objectReference: {fileID: 0}
-    - target: {fileID: 2274743026917805254, guid: f716fa61f6a51f344b5824abddd40501,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0.102257594
-      objectReference: {fileID: 0}
-    - target: {fileID: 2274743026917805254, guid: f716fa61f6a51f344b5824abddd40501,
-        type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2274743026917805254, guid: f716fa61f6a51f344b5824abddd40501,
-        type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2274743026917805254, guid: f716fa61f6a51f344b5824abddd40501,
-        type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2274743026917805254, guid: f716fa61f6a51f344b5824abddd40501,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2274743026917805254, guid: f716fa61f6a51f344b5824abddd40501,
-        type: 3}
-      propertyPath: m_RootOrder
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2274743026917805254, guid: f716fa61f6a51f344b5824abddd40501,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2274743026917805254, guid: f716fa61f6a51f344b5824abddd40501,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2274743026917805254, guid: f716fa61f6a51f344b5824abddd40501,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: f716fa61f6a51f344b5824abddd40501, type: 3}
 --- !u!1 &936788962
 GameObject:
   m_ObjectHideFlags: 0
@@ -1305,8 +1226,6 @@ MonoBehaviour:
     m_OnCameraLive:
       m_PersistentCalls:
         m_Calls: []
-      m_TypeName: Cinemachine.CinemachineBrain+VcamActivatedEvent, Cinemachine, Version=0.0.0.0,
-        Culture=neutral, PublicKeyToken=null
   m_LegacyBlendHint: 0
   m_ComponentOwner: {fileID: 1538032871}
 --- !u!1 &1004385411
@@ -1416,6 +1335,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1030836112}
   - component: {fileID: 1030836111}
+  - component: {fileID: 1030836113}
   m_Layer: 0
   m_Name: PyroEnemy
   m_TagString: Untagged
@@ -1456,10 +1376,22 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 8714376854161074883}
-  - {fileID: 319404112}
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1030836113
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1030836110}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f06288f50d02ca64b93287d638c6dc85, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 0.8
 --- !u!1 &1061309185
 GameObject:
   m_ObjectHideFlags: 0
@@ -2964,7 +2896,7 @@ GameObject:
   - component: {fileID: 1841878769}
   m_Layer: 8
   m_Name: Player
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3143,8 +3075,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 1
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
   OnCrouchEvent:
     m_PersistentCalls:
       m_Calls:
@@ -3159,8 +3089,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-    m_TypeName: CharacterController2D+BoolEvent, Assembly-CSharp, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
 --- !u!114 &1841878765
 MonoBehaviour:
   m_ObjectHideFlags: 0
