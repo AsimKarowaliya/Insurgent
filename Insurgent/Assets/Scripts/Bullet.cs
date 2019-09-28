@@ -15,6 +15,17 @@ public class Bullet : MonoBehaviour
         rb.velocity = transform.right * speed;
     }
 
+    void OnTriggerEnter2D(Collider2D hitInfo)
+    {
+        //Debug.Log(hitInfo.name);
+        PyroAI enemy = hitInfo.GetComponent<PyroAI>();
+        if (enemy != null)
+        {
+            enemy.TakeDamage(damage);
+        }
+        Destroy(gameObject);
+    }
+
     void OnBecameInvisible()
     {
         Destroy(gameObject);
