@@ -10,7 +10,7 @@ public class CKick : MonoBehaviour
     void OnTriggerEnter2D(Collider2D hitInfo)
     {
         //Debug.Log(hitInfo.name);
-        PyroAI enemy = hitInfo.GetComponent<PyroAI>();
+        Enemy enemy = hitInfo.GetComponent<Enemy>();
         if (enemy != null)
         {
             enemy.TakeDamage(damage);

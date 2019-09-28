@@ -9,21 +9,28 @@ public class Bullet : MonoBehaviour
     public float speed = 10f;
     public Rigidbody2D rb;
 
+    public GameObject flashEffect;
+    GameObject other;
+
     // Start is called before the first frame update
     void Start()
     {
         rb.velocity = transform.right * speed;
+        other = GameObject.FindGameObjectWithTag("Flash");
     }
 
     void OnTriggerEnter2D(Collider2D hitInfo)
     {
         //Debug.Log(hitInfo.name);
-        PyroAI enemy = hitInfo.GetComponent<PyroAI>();
+        Enemy enemy = hitInfo.GetComponent<Enemy>();
         if (enemy != null)
         {
             enemy.TakeDamage(damage);
         }
+
+        Instantiate(flashEffect, transform.position, transform.rotation);
         Destroy(gameObject);
+        Destroy(other.gameObject);
     }
 
     void OnBecameInvisible()

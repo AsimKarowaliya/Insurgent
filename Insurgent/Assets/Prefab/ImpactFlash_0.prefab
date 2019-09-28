@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 7113409957944784841}
   m_Layer: 0
   m_Name: ImpactFlash_0
-  m_TagString: Untagged
+  m_TagString: Flash
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

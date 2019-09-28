@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PyroAI : MonoBehaviour
+public class Enemy : MonoBehaviour
 {
 
     public int health = 100;
@@ -14,14 +14,9 @@ public class PyroAI : MonoBehaviour
 
         if (health <= 0)
         {
-            Die();
+            Instantiate(DeathEffect, transform.position, Quaternion.identity);
+            Destroy(gameObject);
         }
-    }
-
-    void Die()
-    {
-        Instantiate(DeathEffect, transform.position, Quaternion.identity);
-        Destroy(gameObject);
     }
 
 }

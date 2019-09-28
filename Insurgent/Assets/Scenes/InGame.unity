@@ -120,6 +120,27 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &40823590 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2274743026917805251, guid: f716fa61f6a51f344b5824abddd40501,
+    type: 3}
+  m_PrefabInstance: {fileID: 7457447686645720581}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &40823591
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 40823590}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cb21336652591724a94d0d89322ab4b6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 100
+  DeathEffect: {fileID: 99434729048243658, guid: 72f9b4b88d75bfe409bbfc7a8b534d3c,
+    type: 3}
 --- !u!1 &113398037
 GameObject:
   m_ObjectHideFlags: 0
@@ -821,9 +842,13 @@ MonoBehaviour:
   m_CameraCutEvent:
     m_PersistentCalls:
       m_Calls: []
+    m_TypeName: Cinemachine.CinemachineBrain+BrainEvent, Cinemachine, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
   m_CameraActivatedEvent:
     m_PersistentCalls:
       m_Calls: []
+    m_TypeName: Cinemachine.CinemachineBrain+VcamActivatedEvent, Cinemachine, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
 --- !u!1 &570667488
 GameObject:
   m_ObjectHideFlags: 0
@@ -1226,6 +1251,8 @@ MonoBehaviour:
     m_OnCameraLive:
       m_PersistentCalls:
         m_Calls: []
+      m_TypeName: Cinemachine.CinemachineBrain+VcamActivatedEvent, Cinemachine, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
   m_LegacyBlendHint: 0
   m_ComponentOwner: {fileID: 1538032871}
 --- !u!1 &1004385411
@@ -1921,7 +1948,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1275184430}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -3.48, y: -1.046, z: 0}
+  m_LocalPosition: {x: -3.48, y: -0.69, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1554530077}
@@ -3054,7 +3081,7 @@ MonoBehaviour:
   m_JumpForce: 700
   m_CrouchSpeed: 0.2
   m_MovementSmoothing: 0.05
-  m_AirControl: 0
+  m_AirControl: 1
   m_WhatIsGround:
     serializedVersion: 2
     m_Bits: 55
@@ -3075,6 +3102,8 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 1
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
   OnCrouchEvent:
     m_PersistentCalls:
       m_Calls:
@@ -3089,6 +3118,8 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+    m_TypeName: CharacterController2D+BoolEvent, Assembly-CSharp, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
 --- !u!114 &1841878765
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3142,7 +3173,7 @@ MonoBehaviour:
   bulletPrefab: {fileID: 6284649716433431874, guid: 313dc6d54ce246f458f7a4e13536c042,
     type: 3}
   timeBtwAttack: 0
-  startTimeBtwAttack: 1
+  startTimeBtwAttack: 0.75
 --- !u!58 &1841878768
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -3479,6 +3510,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1030836112}
     m_Modifications:
+    - target: {fileID: 0}
+      propertyPath: impactEffect
+      value: 
+      objectReference: {fileID: 3465489546300393606, guid: 5ba5b562994b6c141ae7b6df323064ac,
+        type: 3}
     - target: {fileID: 2274743026917805251, guid: f716fa61f6a51f344b5824abddd40501,
         type: 3}
       propertyPath: m_Name
@@ -3544,12 +3580,6 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
-    - target: {fileID: 7457447687029414850, guid: f716fa61f6a51f344b5824abddd40501,
-        type: 3}
-      propertyPath: impactEffect
-      value: 
-      objectReference: {fileID: 3465489546300393606, guid: 5ba5b562994b6c141ae7b6df323064ac,
-        type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f716fa61f6a51f344b5824abddd40501, type: 3}
 --- !u!4 &8714376854161074883 stripped

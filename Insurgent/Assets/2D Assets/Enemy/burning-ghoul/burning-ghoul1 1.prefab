@@ -12,7 +12,6 @@ GameObject:
   - component: {fileID: 2274743026917805253}
   - component: {fileID: 2274743026917805252}
   - component: {fileID: 2274743026917805272}
-  - component: {fileID: 7457447687029414850}
   m_Layer: 0
   m_Name: burning-ghoul1 1
   m_TagString: Untagged
@@ -128,18 +127,3 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.5920725, y: 1.1731923}
   m_EdgeRadius: 0
---- !u!114 &7457447687029414850
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2274743026917805251}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cb21336652591724a94d0d89322ab4b6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  health: 100
-  DeathEffect: {fileID: 99434729048243658, guid: 72f9b4b88d75bfe409bbfc7a8b534d3c,
-    type: 3}

@@ -135,3 +135,5 @@ MonoBehaviour:
   damage: 35
   speed: 15
   rb: {fileID: 7433653908289360784}
+  flashEffect: {fileID: 3465489546300393606, guid: 5ba5b562994b6c141ae7b6df323064ac,
+    type: 3}
