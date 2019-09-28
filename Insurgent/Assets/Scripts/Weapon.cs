@@ -22,6 +22,7 @@ public class Weapon : MonoBehaviour
             {
                 timeBtwAttack = startTimeBtwAttack;
                 Shoot();
+                Invoke("Delay", 0.2f);
             }
             else
             {
@@ -32,6 +33,7 @@ public class Weapon : MonoBehaviour
             {
                 timeBtwAttack = startTimeBtwAttack;
                 Kick();
+                Invoke("Delay", 0.2f);
             }
             else
             {
@@ -45,11 +47,16 @@ public class Weapon : MonoBehaviour
 
     }
 
+    void Delay()
+    {
+        animator.SetBool("IsShooting", false);
+        animator.SetBool("IsKicking", false);
+    }
 
     void Shoot()
     {
-        Instantiate(bulletPrefab, firePoint.position, firePoint.rotation);
         animator.SetBool("IsShooting", true);
+        Instantiate(bulletPrefab, firePoint.position, firePoint.rotation);
     }
 
     void Kick()
