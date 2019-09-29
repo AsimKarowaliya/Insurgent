@@ -1,16 +1,7 @@
 fileFormatVersion: 2
-guid: b8c7e7d8be71faa459042e4588f03176
+guid: cf9d9c272e085ef439f2fcb4be4d1871
 TextureImporter:
-  internalIDToNameTable:
-  - first:
-      213: 8530620780995946574
-    second: Final plat2_0
-  - first:
-      213: 487416766227704005
-    second: Final plat2_1
-  - first:
-      213: -5325790680608446069
-    second: Final plat2_2
+  internalIDToNameTable: []
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -49,12 +40,12 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 2
+  spriteMode: 1
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 32
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -93,70 +84,7 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites:
-    - serializedVersion: 2
-      name: Final plat2_0
-      rect:
-        serializedVersion: 2
-        x: 291
-        y: 157
-        width: 40
-        height: 30
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c2352a7302814de4c9e70670271d7849
-      internalID: 8530620780995946574
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Final plat2_1
-      rect:
-        serializedVersion: 2
-        x: 61
-        y: 117
-        width: 139
-        height: 21
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f76476b05ea1e394b8919d38b8a96de5
-      internalID: 487416766227704005
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Final plat2_2
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 0
-        width: 350
-        height: 42
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 7b3b97855d8b4ab439034b79441dfada
-      internalID: -5325790680608446069
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
+    sprites: []
     outline: []
     physicsShape: []
     bones: []

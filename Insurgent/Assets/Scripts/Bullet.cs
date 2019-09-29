@@ -21,8 +21,9 @@ public class Bullet : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D hitInfo)
     {
-        //Debug.Log(hitInfo.name);
+        Debug.Log(hitInfo.name);
         Enemy enemy = hitInfo.GetComponent<Enemy>();
+
         if (enemy != null)
         {
             enemy.TakeDamage(damage);
@@ -30,7 +31,7 @@ public class Bullet : MonoBehaviour
 
         Instantiate(flashEffect, transform.position, transform.rotation);
         Destroy(gameObject);
-        Destroy(other.gameObject);
+        Destroy(other);
     }
 
     void OnBecameInvisible()
