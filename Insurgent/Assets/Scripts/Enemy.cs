@@ -6,20 +6,13 @@ using UnityEngine;
 
 public class Enemy : MonoBehaviour
 {
+
     public float health = 100;
     public GameObject DeathEffect;
-
-    //Image healthBar;
-
-    //void Start()
-    //{
-    //    healthBar = GetComponent<Image>();
-    //}
 
     public void TakeDamage(int damage)
     {
         health -= damage;
-        //healthBar.fillAmount = health / 100;
 
         if (health <= 0)
         {
@@ -28,4 +21,23 @@ public class Enemy : MonoBehaviour
         }
     }
 
+    //void OnTriggerEnter2D(Collision2D collision)
+    //{
+    //    if (collision.gameObject.tag == "Player")
+    //    {
+    //        HealthSystem SN = gameObject.GetComponent<HealthSystem>();
+    //        SN.playerHealth -= 1;
+    //    }
+    //}
+
 }
+
+
+//Image healthBar;
+
+//void Start()
+//{
+//    healthBar = GetComponent<Image>();
+//}
+
+//healthBar.fillAmount = health / 100;

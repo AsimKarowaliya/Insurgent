@@ -13,6 +13,7 @@ public class HealthSystem : MonoBehaviour
     public Sprite fullHearts;
     public Sprite emptyHearts;
 
+
     void Update()
     {
 
@@ -42,6 +43,15 @@ public class HealthSystem : MonoBehaviour
             {
                 hearts[i].enabled = false;
             }
+        }
+
+    }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.CompareTag("Enemy"))
+        {
+            playerHealth -= 1;
         }
     }
 }

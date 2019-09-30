@@ -132,7 +132,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e68299e6a09c18a448b9aa0a7b98d558, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damage: 35
+  damage: 34
   speed: 15
   rb: {fileID: 7433653908289360784}
   flashEffect: {fileID: 3465489546300393606, guid: 5ba5b562994b6c141ae7b6df323064ac,

@@ -18,11 +18,11 @@ public class Weapon : MonoBehaviour
 
         if(timeBtwAttack <= 0)
         {
-            if (Input.GetButtonDown("Fire1"))
+            if (Input.GetButtonDown("Fire1") && animator.GetBool("IsCrouching") == false)
             {
                 timeBtwAttack = startTimeBtwAttack;
                 Shoot();
-                Invoke("Delay", 0.2f);
+                Invoke("Delay", 0.3f);
             }
             else
             {

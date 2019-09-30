@@ -22,11 +22,10 @@ public class Bullet : MonoBehaviour
     void OnTriggerEnter2D(Collider2D hitInfo)
     {
         Debug.Log(hitInfo.name);
-        Enemy enemy = hitInfo.GetComponent<Enemy>();
 
-        if (enemy != null)
+        if (hitInfo.CompareTag("Enemy"))
         {
-            enemy.TakeDamage(damage);
+            hitInfo.GetComponent<Enemy>().TakeDamage(damage);
         }
 
         Instantiate(flashEffect, transform.position, transform.rotation);

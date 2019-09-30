@@ -4,16 +4,15 @@ using UnityEngine;
 
 public class CKick : MonoBehaviour
 {
-
     public int damage = 40;
 
-    void OnTriggerEnter2D(Collider2D hitInfo)
+    void OnTriggerExit2D(Collider2D Info)
     {
-        //Debug.Log(hitInfo.name);
-        Enemy enemy = hitInfo.GetComponent<Enemy>();
-        if (enemy != null)
+        Debug.Log(Info.name);
+
+        if (Info.CompareTag("Enemy"))
         {
-            enemy.TakeDamage(damage);
+            Info.GetComponent<Enemy>().TakeDamage(damage);
         }
     }
 }
