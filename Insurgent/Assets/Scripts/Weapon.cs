@@ -22,6 +22,7 @@ public class Weapon : MonoBehaviour
             {
                 timeBtwAttack = startTimeBtwAttack;
                 Shoot();
+                // play shoot sound
                 Invoke("Delay", 0.3f);
             }
             else

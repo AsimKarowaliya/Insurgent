@@ -29,6 +29,7 @@ public class Bullet : MonoBehaviour
         }
 
         Instantiate(flashEffect, transform.position, transform.rotation);
+        // impact sound
         Destroy(gameObject);
         Destroy(other);
     }

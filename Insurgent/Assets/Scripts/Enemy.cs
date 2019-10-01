@@ -18,6 +18,7 @@ public class Enemy : MonoBehaviour
         {
             Instantiate(DeathEffect, transform.position, Quaternion.identity);
             Destroy(gameObject);
+            // enemy explosion
         }
     }
 

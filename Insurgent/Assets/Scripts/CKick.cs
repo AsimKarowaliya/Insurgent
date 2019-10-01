@@ -12,7 +12,8 @@ public class CKick : MonoBehaviour
 
         if (Info.CompareTag("Enemy"))
         {
-            Info.GetComponent<Enemy>().TakeDamage(damage);
+            HealthSystem SN = gameObject.GetComponent<HealthSystem>();
+            SN.playerHealth -= 1;
         }
     }
 }
