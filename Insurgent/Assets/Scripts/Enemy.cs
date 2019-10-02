@@ -37,8 +37,8 @@ public class Enemy : MonoBehaviour
         
         if (coll.CompareTag("Player"))
         {
-            //Instantiate(DeathEffect, transform.position, Quaternion.identity);
-            //Destroy(gameObject);
+            Instantiate(DeathEffect, transform.position, Quaternion.identity);
+            Destroy(gameObject);
             HealthSystem SN = coll.GetComponent<HealthSystem>();
             SN.playerHealth -= 1;
         }

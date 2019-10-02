@@ -30,7 +30,7 @@ public class Patrol : MonoBehaviour
         }
 
         RaycastHit2D wallinfo = Physics2D.Raycast(target.position, Vector2.left, distance);
-        if (wallinfo.collider == true)
+        if (wallinfo.collider == true && wallinfo.transform.gameObject.tag != "Player")
         {
             if (goingRight == true)
             {

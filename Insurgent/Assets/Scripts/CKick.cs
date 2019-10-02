@@ -6,13 +6,25 @@ public class CKick : MonoBehaviour
 {
     public int damage = 40;
 
-    void OnTriggerEnter2D(CircleCollider2D Info)
-    {
-        Debug.Log(Info.name);
+    public float distance;
+    //private bool HitsObject = true;
+    public Transform target;
 
-        if (Info.CompareTag("Enemy"))
-        {
-            Info.GetComponent<Enemy>().TakeDamage(damage);
-        }
-    }
+    private GameObject kill;
+
+    //public void KickOP()
+    //{
+        
+    //    RaycastHit2D info = Physics2D.Raycast(target.position, Vector2.right, distance);
+    //    if (info.collider == true)
+    //    {
+
+    //        if (info.transform.CompareTag("Enemy"))
+    //        {
+    //            Debug.Log(info.transform.name);
+    //        }
+
+    //    }
+        
+    //}
 }

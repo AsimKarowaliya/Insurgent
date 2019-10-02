@@ -11,8 +11,13 @@ public class Weapon : MonoBehaviour
 
     public float timeBtwAttack;
     public float startTimeBtwAttack;
+    //private CKick k;
 
-    // Update is called once per frame
+    //// Update is called once per frame
+    //void Start()
+    //{
+    //    k = gameObject.GetComponent("CKick") as CKick;
+    //}
     void Update()
     {
 
@@ -34,6 +39,8 @@ public class Weapon : MonoBehaviour
             {
                 timeBtwAttack = startTimeBtwAttack;
                 Kick();
+                //k.KickOP();
+                // play kick sound
                 Invoke("Delay", 0.2f);
             }
             else
