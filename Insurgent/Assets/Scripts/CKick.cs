@@ -6,14 +6,14 @@ public class CKick : MonoBehaviour
 {
     public int damage = 40;
 
-    void OnTriggerExit2D(Collider2D Info)
-    {
-        Debug.Log(Info.name);
+    //void OnTriggerExit2D(Collider2D Info)
+    //{
+    //    Debug.Log(Info.name);
 
-        if (Info.CompareTag("Enemy"))
-        {
-            HealthSystem SN = gameObject.GetComponent<HealthSystem>();
-            SN.playerHealth -= 1;
-        }
-    }
+    //    if (Info.CompareTag("Enemy"))
+    //    {
+    //        HealthSystem SN = gameObject.GetComponent<HealthSystem>();
+    //        SN.playerHealth -= 1;
+    //    }
+    //}
 }

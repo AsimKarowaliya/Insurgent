@@ -1,15 +1,19 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-//using UnityEngine.UI;
+using UnityEngine.UI;
 
 
 public class Enemy : MonoBehaviour
 {
-
+    Image healthBar;
     public float health = 100;
     public GameObject DeathEffect;
 
+    void Start()
+    {
+        healthBar = GetComponent<Image>();
+    }
     public void TakeDamage(int damage)
     {
         health -= damage;
@@ -22,23 +26,24 @@ public class Enemy : MonoBehaviour
         }
     }
 
-    //void OnTriggerEnter2D(Collision2D collision)
-    //{
-    //    if (collision.gameObject.tag == "Player")
-    //    {
-    //        HealthSystem SN = gameObject.GetComponent<HealthSystem>();
-    //        SN.playerHealth -= 1;
-    //    }
-    //}
+    void OnTriggerEnter2D(Collider2D coll)
+    {
+        Debug.Log(gameObject.name);
 
+        if (coll.CompareTag("Bullet"))
+        {
+            healthBar.fillAmount = health / 100;
+        }
+        
+        if (coll.CompareTag("Player"))
+        {
+            Instantiate(DeathEffect, transform.position, Quaternion.identity);
+            Destroy(gameObject);
+            HealthSystem SN = coll.GetComponent<HealthSystem>();
+            SN.playerHealth -= 1;
+        }
+
+
+
+    }
 }
-
-
-//Image healthBar;
-
-//void Start()
-//{
-//    healthBar = GetComponent<Image>();
-//}
-
-//healthBar.fillAmount = health / 100;
