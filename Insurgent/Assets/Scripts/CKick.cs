@@ -6,7 +6,7 @@ public class CKick : MonoBehaviour
 {
     public int damage = 40;
 
-    void OnTriggerEnter2D(Collider2D Info)
+    void OnTriggerEnter2D(CircleCollider2D Info)
     {
         Debug.Log(Info.name);
 
