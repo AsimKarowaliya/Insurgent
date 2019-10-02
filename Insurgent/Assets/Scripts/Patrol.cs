@@ -5,18 +5,43 @@ using UnityEngine;
 public class Patrol : MonoBehaviour
 {
     public float speed;
-
-    private Transform target;
+    public float distance;
+    private bool goingRight = true;
+    public Transform target;
     // Start is called before the first frame update
-    void Start()
-    {
-        target = GameObject.FindGameObjectWithTag("Player").GetComponent<Transform>();
-    }
 
     // Update is called once per frame
-    void Update()
+    void FixedUpdate()
     {
-        var targetPos = new Vector2(target.position.x, transform.position.y);
-        transform.position = Vector2.MoveTowards(transform.position, targetPos, speed * Time.deltaTime);
+        transform.Translate(Vector2.right * speed * Time.deltaTime);
+        RaycastHit2D groundInfo = Physics2D.Raycast(target.position, Vector2.down, distance);
+        if (groundInfo.collider == false)
+        {
+            if (goingRight == true)
+            {
+                transform.eulerAngles = new Vector3(0, -180, 0);
+                goingRight = false;
+            }
+            else
+            {
+                transform.eulerAngles = new Vector3(0, 0, 0);
+                goingRight = true;
+            }
+        }
+
+        RaycastHit2D wallinfo = Physics2D.Raycast(target.position, Vector2.left, distance);
+        if (wallinfo.collider == true)
+        {
+            if (goingRight == true)
+            {
+                transform.eulerAngles = new Vector3(0, -180, 0);
+                goingRight = false;
+            }
+            else
+            {
+                transform.eulerAngles = new Vector3(0, 0, 0);
+                goingRight = true;
+            }
+        }
     }
 }
