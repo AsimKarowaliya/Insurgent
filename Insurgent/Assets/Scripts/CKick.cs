@@ -4,17 +4,17 @@ using UnityEngine;
 
 public class CKick : MonoBehaviour
 {
-    public int damage = 40;
+    //public int damage = 40;
 
-    public float distance;
-    //private bool HitsObject = true;
-    public Transform target;
+    //public float distance;
+    ////private bool HitsObject = true;
+    //public Transform target;
 
-    private GameObject kill;
+    //private GameObject kill;
 
     //public void KickOP()
     //{
-        
+
     //    RaycastHit2D info = Physics2D.Raycast(target.position, Vector2.right, distance);
     //    if (info.collider == true)
     //    {
@@ -25,6 +25,6 @@ public class CKick : MonoBehaviour
     //        }
 
     //    }
-        
+
     //}
 }
