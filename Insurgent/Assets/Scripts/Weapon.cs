@@ -9,21 +9,21 @@ public class Weapon : MonoBehaviour
     public Transform firePoint;
     public GameObject bulletPrefab;
 
+
     public float timeBtwAttack;
     public float startTimeBtwAttack;
-    //private CKick k;
+    private PlayerMovement pm;
 
-    //// Update is called once per frame
-    //void Start()
-    //{
-    //    k = gameObject.GetComponent("CKick") as CKick;
-    //}
+    void Start()
+    {
+        pm = GetComponent<PlayerMovement>();
+    }
     void Update()
     {
 
         if(timeBtwAttack <= 0)
         {
-            if (Input.GetButtonDown("Fire1") && animator.GetBool("IsCrouching") == false)
+            if (Input.GetButtonUp("Fire1") && animator.GetBool("IsCrouching") == false && animator.GetBool("IsJumping") == false)
             {
                 timeBtwAttack = startTimeBtwAttack;
                 Shoot();
@@ -38,8 +38,7 @@ public class Weapon : MonoBehaviour
             if (Input.GetButtonDown("Fire2"))
             {
                 timeBtwAttack = startTimeBtwAttack;
-                Kick();
-                //k.KickOP();
+                animator.SetBool("IsKicking", true);
                 // play kick sound
                 Invoke("Delay", 0.2f);
             }
@@ -47,6 +46,17 @@ public class Weapon : MonoBehaviour
             {
                 animator.SetBool("IsKicking", false);
             }
+
+            if (pm.jj == true && Input.GetButtonDown("Fire2"))
+            {
+                animator.SetBool("FlyKick", true);
+                animator.SetBool("IsJumping", false);
+            }
+            else
+            {
+                animator.SetBool("FlyKick", false);
+            }
+
         }
         else
         {
@@ -59,6 +69,7 @@ public class Weapon : MonoBehaviour
     {
         animator.SetBool("IsShooting", false);
         animator.SetBool("IsKicking", false);
+        animator.SetBool("FlyKick", false);
     }
 
     void Shoot()
@@ -67,8 +78,4 @@ public class Weapon : MonoBehaviour
         Instantiate(bulletPrefab, firePoint.position, firePoint.rotation);
     }
 
-    void Kick()
-    {
-        animator.SetBool("IsKicking", true);
-    }
 }

@@ -12,7 +12,6 @@ public class Bullet : MonoBehaviour
     public GameObject flashEffect;
     GameObject other;
 
-    // Start is called before the first frame update
     void Start()
     {
         rb.velocity = transform.right * speed;
@@ -26,6 +25,10 @@ public class Bullet : MonoBehaviour
         if (hitInfo.CompareTag("Enemy"))
         {
             hitInfo.GetComponent<Enemy>().TakeDamage(damage);
+        }
+        else if (hitInfo.CompareTag("EnemyB"))
+        {
+            hitInfo.GetComponent<EnemyB>().TakeDamage(damage);
         }
 
         Instantiate(flashEffect, transform.position, transform.rotation);

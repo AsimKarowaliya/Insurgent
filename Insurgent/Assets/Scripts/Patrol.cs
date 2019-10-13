@@ -8,9 +8,7 @@ public class Patrol : MonoBehaviour
     public float distance;
     private bool goingRight = true;
     public Transform target;
-    // Start is called before the first frame update
 
-    // Update is called once per frame
     void FixedUpdate()
     {
         transform.Translate(Vector2.right * speed * Time.deltaTime);

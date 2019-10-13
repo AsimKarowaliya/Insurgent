@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 2448317046214708721}
   - component: {fileID: 3608090122452891813}
   - component: {fileID: 7113409957944784841}
+  - component: {fileID: 890911999870744286}
   m_Layer: 0
   m_Name: ImpactFlash_0
   m_TagString: Flash
@@ -101,3 +102,15 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &890911999870744286
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3465489546300393606}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fd2ff228723cb124787793481af08c9f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

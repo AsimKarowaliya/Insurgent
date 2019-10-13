@@ -8,21 +8,31 @@ public class HealthSystem : MonoBehaviour
 
     public int playerHealth;
     public int numOfHearts;
+    private int oldplayerHealth;
 
     public Image[] hearts;
     public Sprite fullHearts;
     public Sprite emptyHearts;
 
+    GameObject plya;
+    public Material whiteF;
+    private Material matDef;
+
+    void Start()
+    {
+        plya = GameObject.FindGameObjectWithTag("Player");
+        matDef = plya.GetComponent<SpriteRenderer>().material;
+        whiteF = Resources.Load("WhiteFlash", typeof(Material)) as Material;
+    }
 
     void Update()
     {
+        oldplayerHealth = playerHealth;
 
-        if(playerHealth > numOfHearts)
+        if (playerHealth > numOfHearts)
         {
             playerHealth = numOfHearts;
         }
-
-
 
         for (int i = 0; i < hearts.Length; i++)
         {
@@ -48,3 +58,9 @@ public class HealthSystem : MonoBehaviour
     }
 
 }
+
+//plya.GetComponent<SpriteRenderer>().color = Color.red;
+//plya.GetComponent<SpriteRenderer>().material = whiteF;
+
+//plya.GetComponent<SpriteRenderer>().color = Color.white;
+//plya.GetComponent<SpriteRenderer>().material = matDef;
