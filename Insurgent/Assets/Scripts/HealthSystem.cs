@@ -58,9 +58,3 @@ public class HealthSystem : MonoBehaviour
     }
 
 }
-
-//plya.GetComponent<SpriteRenderer>().color = Color.red;
-//plya.GetComponent<SpriteRenderer>().material = whiteF;
-
-//plya.GetComponent<SpriteRenderer>().color = Color.white;
-//plya.GetComponent<SpriteRenderer>().material = matDef;

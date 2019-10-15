@@ -18,6 +18,8 @@ public class Enemy : MonoBehaviour
     public void TakeDamage(int damage)
     {
         health -= damage;
+        this.transform.Translate(Vector2.left * 25 * Time.deltaTime);
+        healthBar.fillAmount = health / 100;
 
         if (health <= 0)
         {
@@ -33,7 +35,6 @@ public class Enemy : MonoBehaviour
 
         if (coll.CompareTag("Bullet"))
         {
-            healthBar.fillAmount = health / 100;
             GetComponent<SpriteRenderer>().color = Color.red;
             Invoke("ResetMat", 0.2f);
         }

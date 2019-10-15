@@ -1,25 +1,19 @@
 fileFormatVersion: 2
-guid: 9a2d6fe1a7badb942866fa1d5734e2e5
+guid: 4fdb5ee7ee78f254382c88c04121c440
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -9132983368175994448
-    second: lamp-post environment_0
+      213: -3573257844640204678
+    second: projectile_blue_1
   - first:
-      213: 4316022472266537498
-    second: lamp-post environment_1
+      213: -3733830371413228728
+    second: projectile_blue_3
   - first:
-      213: -6586284989270345038
-    second: lamp-post environment_2
+      213: -1786744954001356810
+    second: projectile_blue_5
   - first:
-      213: -2399516460455767469
-    second: lamp-post environment_3
-  - first:
-      213: 1934152835768312157
-    second: lamp-post environment_4
-  - first:
-      213: -5651645568444230854
-    second: lamp-post environment_5
+      213: -707160263915295966
+    second: projectile_blue_7
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -63,7 +57,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 50
+  spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -104,127 +98,85 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: lamp-post environment_0
+      name: projectile_blue_1
       rect:
         serializedVersion: 2
-        x: 26
-        y: 613
-        width: 38
-        height: 187
+        x: 16
+        y: 251
+        width: 180
+        height: 139
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ae3697cbc5bc30d46ad40304bda3c250
-      internalID: -9132983368175994448
+      spriteID: f86334d6946bc654497c57e49a25e2fc
+      internalID: -3573257844640204678
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: lamp-post environment_1
+      name: projectile_blue_3
       rect:
         serializedVersion: 2
-        x: 101
-        y: 613
-        width: 38
-        height: 187
+        x: 226
+        y: 251
+        width: 180
+        height: 139
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d06d329a0995cee4a9c04f92b40f71ca
-      internalID: 4316022472266537498
+      spriteID: d1ef9217a58b5ba44b210f688d08541c
+      internalID: -3733830371413228728
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: lamp-post environment_2
+      name: projectile_blue_5
       rect:
         serializedVersion: 2
-        x: 183
-        y: 613
-        width: 38
-        height: 187
+        x: 8
+        y: 38
+        width: 180
+        height: 136
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3ccafe31cf743b744aaf856971bfcf03
-      internalID: -6586284989270345038
+      spriteID: 559874798f0dbae46937636aed0c4c05
+      internalID: -1786744954001356810
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: lamp-post environment_3
+      name: projectile_blue_7
       rect:
         serializedVersion: 2
-        x: 266
-        y: 613
-        width: 38
-        height: 187
+        x: 227
+        y: 38
+        width: 180
+        height: 138
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7b910fc8226b0ff438cfb6dc53d15c40
-      internalID: -2399516460455767469
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: lamp-post environment_4
-      rect:
-        serializedVersion: 2
-        x: 344
-        y: 613
-        width: 38
-        height: 187
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: be956472f6fd1d14cad9ea414b6a1002
-      internalID: 1934152835768312157
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: lamp-post environment_5
-      rect:
-        serializedVersion: 2
-        x: 424
-        y: 613
-        width: 38
-        height: 187
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f8425995bca69734780eec1a0848f91f
-      internalID: -5651645568444230854
+      spriteID: bd193ea1edc6e6041a3d21cb5c4675ee
+      internalID: -707160263915295966
       vertices: []
       indices: 
       edges: []
