@@ -1,0 +1,535 @@
+fileFormatVersion: 2
+guid: 94aec93c297fcd0409449636b44598e7
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1981737112524194881
+    second: lamp post_0
+  - first:
+      213: 8082921364576168129
+    second: lamp post_1
+  - first:
+      213: -2473956297350906526
+    second: lamp post_2
+  - first:
+      213: 4330922694668969848
+    second: lamp post_3
+  - first:
+      213: -6328077417217544993
+    second: lamp post_4
+  - first:
+      213: 5685183933203748390
+    second: lamp post_5
+  - first:
+      213: -4498659064624021318
+    second: lamp post_6
+  - first:
+      213: 4699578905959486372
+    second: lamp post_7
+  - first:
+      213: -7438601883711592956
+    second: lamp post_8
+  - first:
+      213: 325488471142408216
+    second: lamp post_9
+  - first:
+      213: 4449896754767151821
+    second: lamp post_10
+  - first:
+      213: 7128041748815272702
+    second: lamp post_11
+  - first:
+      213: -6788391326484942671
+    second: lamp post_12
+  - first:
+      213: 7369029837566081076
+    second: lamp post_13
+  - first:
+      213: -2257905711059287084
+    second: lamp post_14
+  - first:
+      213: 5362270282677774793
+    second: lamp post_15
+  - first:
+      213: -5657315231183550589
+    second: lamp post_16
+  - first:
+      213: 7897223261884391037
+    second: lamp post_17
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 50
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: lamp post_0
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 808
+        width: 123
+        height: 166
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17c155e75c6a37541af33b2beba50561
+      internalID: -1981737112524194881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lamp post_1
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 800
+        width: 123
+        height: 166
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de197b9b5168e974195be78b9b30dbcc
+      internalID: 8082921364576168129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lamp post_2
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 800
+        width: 123
+        height: 166
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e969498bff6f1146905929ed0ce3b15
+      internalID: -2473956297350906526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lamp post_3
+      rect:
+        serializedVersion: 2
+        x: 474
+        y: 798
+        width: 123
+        height: 166
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8776c2cdc858934eba5109e15edea0f
+      internalID: 4330922694668969848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lamp post_4
+      rect:
+        serializedVersion: 2
+        x: 618
+        y: 795
+        width: 123
+        height: 166
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b15d6c8541fc02a42b1620c7ac3a5ded
+      internalID: -6328077417217544993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lamp post_5
+      rect:
+        serializedVersion: 2
+        x: 786
+        y: 795
+        width: 123
+        height: 166
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fecc14a73ff0b94a95f75467f7d6fc6
+      internalID: 5685183933203748390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lamp post_6
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 606
+        width: 123
+        height: 166
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15f964f52a1a9c146830ea4b98f1a62a
+      internalID: -4498659064624021318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lamp post_7
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 598
+        width: 123
+        height: 166
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e3b6583deb6d154095eb71c9f99bda8
+      internalID: 4699578905959486372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lamp post_8
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 598
+        width: 123
+        height: 166
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5e440be52f67914f99eabef2e29f452
+      internalID: -7438601883711592956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lamp post_9
+      rect:
+        serializedVersion: 2
+        x: 472
+        y: 596
+        width: 123
+        height: 166
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40bd3a2f4f901c04a8021ee60ba2af90
+      internalID: 325488471142408216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lamp post_10
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 593
+        width: 123
+        height: 166
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d1c4bd7cd53e214c9dbcf2265d879a9
+      internalID: 4449896754767151821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lamp post_11
+      rect:
+        serializedVersion: 2
+        x: 784
+        y: 593
+        width: 123
+        height: 166
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80bc1961ae27f8743a90868112cb679b
+      internalID: 7128041748815272702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lamp post_12
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 380
+        width: 123
+        height: 166
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de5d038da97d9c042a1b9ea6b08043bd
+      internalID: -6788391326484942671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lamp post_13
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 372
+        width: 123
+        height: 166
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c378e5a9b96882340883e6847f9042b4
+      internalID: 7369029837566081076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lamp post_14
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 372
+        width: 123
+        height: 166
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5a3fb55115e8f642aaac9c27b89f5c5
+      internalID: -2257905711059287084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lamp post_15
+      rect:
+        serializedVersion: 2
+        x: 475
+        y: 370
+        width: 123
+        height: 166
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f26aa16359800d248b060c147f3e4faf
+      internalID: 5362270282677774793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lamp post_16
+      rect:
+        serializedVersion: 2
+        x: 619
+        y: 367
+        width: 123
+        height: 166
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cacec12a5fa13e44da70a09307187d68
+      internalID: -5657315231183550589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lamp post_17
+      rect:
+        serializedVersion: 2
+        x: 787
+        y: 367
+        width: 123
+        height: 166
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fb06bfa58b17d24e9b11d4e33340254
+      internalID: 7897223261884391037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

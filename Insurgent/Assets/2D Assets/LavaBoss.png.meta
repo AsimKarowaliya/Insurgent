@@ -1,7 +1,274 @@
 fileFormatVersion: 2
 guid: 1f0614d5198459940a566aca5c2a4a16
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: -6460760425313210393
+    second: LavaBoss_0
+  - first:
+      213: 6355217856253641531
+    second: LavaBoss_1
+  - first:
+      213: -4291507800417197152
+    second: LavaBoss_2
+  - first:
+      213: 1218913442309909216
+    second: LavaBoss_3
+  - first:
+      213: -8747982082461826668
+    second: LavaBoss_4
+  - first:
+      213: -5401406484189273010
+    second: LavaBoss_5
+  - first:
+      213: -6388344981687172549
+    second: LavaBoss_7
+  - first:
+      213: -6577618686434931931
+    second: LavaBoss_8
+  - first:
+      213: 5566463055027847064
+    second: LavaBoss_9
+  - first:
+      213: 497084086327100396
+    second: LavaBoss_10
+  - first:
+      213: 7792287185713359509
+    second: LavaBoss_11
+  - first:
+      213: -4290180385229186585
+    second: LavaBoss_12
+  - first:
+      213: -7790651701675201852
+    second: LavaBoss_13
+  - first:
+      213: -5045334893414200939
+    second: LavaBoss_14
+  - first:
+      213: -5842069456207762649
+    second: LavaBoss_15
+  - first:
+      213: -3558892254059056016
+    second: LavaBoss_16
+  - first:
+      213: -6781824780896208679
+    second: LavaBoss_17
+  - first:
+      213: -5634089283203303055
+    second: LavaBoss_18
+  - first:
+      213: 4413105411597408403
+    second: LavaBoss_19
+  - first:
+      213: 4808485137779156986
+    second: LavaBoss_20
+  - first:
+      213: -5729589429077763111
+    second: LavaBoss_21
+  - first:
+      213: 3943653753229439494
+    second: LavaBoss_22
+  - first:
+      213: -651726901146305865
+    second: LavaBoss_23
+  - first:
+      213: -2994061604801911267
+    second: LavaBoss_24
+  - first:
+      213: 6602090935843324769
+    second: LavaBoss_25
+  - first:
+      213: -961889216401440293
+    second: LavaBoss_26
+  - first:
+      213: -8413874306769533692
+    second: LavaBoss_27
+  - first:
+      213: 3568633396434565525
+    second: LavaBoss_28
+  - first:
+      213: 3901326171365881116
+    second: LavaBoss_29
+  - first:
+      213: 7389069716556504579
+    second: LavaBoss_30
+  - first:
+      213: -9080995901587677055
+    second: LavaBoss_31
+  - first:
+      213: -2870589930268448438
+    second: LavaBoss_32
+  - first:
+      213: 336511597599381424
+    second: LavaBoss_33
+  - first:
+      213: -2310163250180432875
+    second: LavaBoss_34
+  - first:
+      213: 343089889228502682
+    second: LavaBoss_35
+  - first:
+      213: 4206009014746068368
+    second: LavaBoss_37
+  - first:
+      213: 1754731856849108487
+    second: LavaBoss_38
+  - first:
+      213: 6970143722694234183
+    second: LavaBoss_39
+  - first:
+      213: 7080181263447506807
+    second: LavaBoss_40
+  - first:
+      213: -8404953871660875063
+    second: LavaBoss_41
+  - first:
+      213: 8362103919217333805
+    second: LavaBoss_42
+  - first:
+      213: -8863209896635462978
+    second: LavaBoss_53
+  - first:
+      213: 2485277086991771857
+    second: LavaBoss_54
+  - first:
+      213: 1909751422000749835
+    second: LavaBoss_55
+  - first:
+      213: 3478723075494715464
+    second: LavaBoss_56
+  - first:
+      213: -6167615494540602711
+    second: LavaBoss_57
+  - first:
+      213: -4562391578297650917
+    second: LavaBoss_58
+  - first:
+      213: 6577273786182208351
+    second: LavaBoss_59
+  - first:
+      213: 4361054295970280118
+    second: LavaBoss_60
+  - first:
+      213: 4826418675324834489
+    second: LavaBoss_61
+  - first:
+      213: 4228796205695435429
+    second: LavaBoss_62
+  - first:
+      213: 1296012941939638165
+    second: LavaBoss_63
+  - first:
+      213: -7169171536526914391
+    second: LavaBoss_64
+  - first:
+      213: 4575119286570850565
+    second: LavaBoss_65
+  - first:
+      213: 425293740525394976
+    second: LavaBoss_66
+  - first:
+      213: 3673964231449987864
+    second: LavaBoss_67
+  - first:
+      213: -6517844944204339053
+    second: LavaBoss_68
+  - first:
+      213: -7962090747105222551
+    second: LavaBoss_69
+  - first:
+      213: 4437393088884940372
+    second: LavaBoss_70
+  - first:
+      213: 8937054114782817709
+    second: LavaBoss_71
+  - first:
+      213: -974110438119419689
+    second: LavaBoss_72
+  - first:
+      213: 8212699595567990467
+    second: LavaBoss_73
+  - first:
+      213: -631835846981715347
+    second: LavaBoss_74
+  - first:
+      213: 6039832327734324816
+    second: LavaBoss_75
+  - first:
+      213: 8564652294888287686
+    second: LavaBoss_76
+  - first:
+      213: 7795933669169050994
+    second: LavaBoss_77
+  - first:
+      213: -4566083923637438946
+    second: LavaBoss_78
+  - first:
+      213: 486886688813997117
+    second: LavaBoss_79
+  - first:
+      213: -6536882632221586414
+    second: LavaBoss_80
+  - first:
+      213: 2051904383482880720
+    second: LavaBoss_81
+  - first:
+      213: -7472575089383700865
+    second: LavaBoss_82
+  - first:
+      213: -3019948671760892887
+    second: LavaBoss_83
+  - first:
+      213: -8238133421919211475
+    second: LavaBoss_89
+  - first:
+      213: 675156579090096917
+    second: LavaBoss_90
+  - first:
+      213: -8626294629110271441
+    second: LavaBoss_91
+  - first:
+      213: -6101862516279832735
+    second: LavaBoss_92
+  - first:
+      213: -8440109066368343239
+    second: LavaBoss_93
+  - first:
+      213: 8511038178003717178
+    second: LavaBoss_94
+  - first:
+      213: 3307244269723470801
+    second: LavaBoss_95
+  - first:
+      213: -679227973529231748
+    second: LavaBoss_96
+  - first:
+      213: 4426710017180501070
+    second: LavaBoss_97
+  - first:
+      213: -592545897692912590
+    second: LavaBoss_98
+  - first:
+      213: 5381392310329740404
+    second: LavaBoss_99
+  - first:
+      213: -8761879862617779285
+    second: LavaBoss_100
+  - first:
+      213: -618410195112795353
+    second: LavaBoss_101
+  - first:
+      213: 6968357309862871965
+    second: LavaBoss_102
+  - first:
+      213: 6590712209588058136
+    second: LavaBoss_103
+  - first:
+      213: -825857228442179110
+    second: LavaBoss_104
+  - first:
+      213: 2298859933050312468
+    second: LavaBoss_105
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -40,12 +307,12 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 32
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -70,9 +337,1869 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: LavaBoss_0
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 1075
+        width: 37
+        height: 23
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b42efc641815fd4f8ed2ec5ace76ce8
+      internalID: -6460760425313210393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LavaBoss_1
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 1075
+        width: 58
+        height: 68
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 082ac1b12c0487e42b3ae87436c3db34
+      internalID: 6355217856253641531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LavaBoss_2
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 1075
+        width: 74
+        height: 112
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b9e71b8f3c05b7409914947952475a9
+      internalID: -4291507800417197152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LavaBoss_3
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 1076
+        width: 85
+        height: 102
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34477327948ce204495cae01e3186fc3
+      internalID: 1218913442309909216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LavaBoss_4
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 1077
+        width: 105
+        height: 98
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 129112459a475424a87d29b96d416646
+      internalID: -8747982082461826668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LavaBoss_5
+      rect:
+        serializedVersion: 2
+        x: 457
+        y: 1076
+        width: 106
+        height: 94
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f89a678855017a94b8590abbec8e8da8
+      internalID: -5401406484189273010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LavaBoss_7
+      rect:
+        serializedVersion: 2
+        x: 564
+        y: 1076
+        width: 100
+        height: 87
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2720545371031b74caf3232fda1cab76
+      internalID: -6388344981687172549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LavaBoss_8
+      rect:
+        serializedVersion: 2
+        x: 665
+        y: 1076
+        width: 100
+        height: 87
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22cf3a1a97b06c44ba587da2d701af5d
+      internalID: -6577618686434931931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LavaBoss_9
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 975
+        width: 97
+        height: 89
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd1b69737fe2bae4ba0b5bbf84e4dc5b
+      internalID: 5566463055027847064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LavaBoss_10
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 975
+        width: 99
+        height: 90
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5ca6f10640333946a9bd01917dc80f1
+      internalID: 497084086327100396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LavaBoss_11
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 975
+        width: 101
+        height: 89
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07a65a6c5318b8b45806572e222a5dcd
+      internalID: 7792287185713359509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LavaBoss_12
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 975
+        width: 101
+        height: 86
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67438a462a6b41d469ae24327d0b38cc
+      internalID: -4290180385229186585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LavaBoss_13
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 975
+        width: 99
+        height: 85
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47cc5834ee954d54ead962f568b164cc
+      internalID: -7790651701675201852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LavaBoss_14
+      rect:
+        serializedVersion: 2
+        x: 617
+        y: 975
+        width: 101
+        height: 86
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da9bf0799b4057c4c8838b58b3ee3156
+      internalID: -5045334893414200939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LavaBoss_15
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 876
+        width: 102
+        height: 86
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8d3e1e56d906aa43bab52983495c646
+      internalID: -5842069456207762649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LavaBoss_16
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 876
+        width: 98
+        height: 87
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b79c4877ff70b8c418cd326e8c82ba4b
+      internalID: -3558892254059056016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LavaBoss_17
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 876
+        width: 100
+        height: 88
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0cdbe2e2144078247b9d0af758d83d61
+      internalID: -6781824780896208679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LavaBoss_18
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 876
+        width: 100
+        height: 89
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10edfeffbbf440d4781738449dc4706e
+      internalID: -5634089283203303055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LavaBoss_19
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 876
+        width: 100
+        height: 88
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3f9984481808144caaa617fe9043ebc
+      internalID: 4413105411597408403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LavaBoss_20
+      rect:
+        serializedVersion: 2
+        x: 623
+        y: 876
+        width: 100
+        height: 88
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7cf295d642ba7d949aee1ff338912287
+      internalID: 4808485137779156986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LavaBoss_21
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 775
+        width: 92
+        height: 89
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48e8bba940353d74bb1df432d0a90f71
+      internalID: -5729589429077763111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LavaBoss_22
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 775
+        width: 88
+        height: 89
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60117776d7be6244da4e3e5f2bcfb926
+      internalID: 3943653753229439494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LavaBoss_23
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 775
+        width: 111
+        height: 91
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a11174a21fd15da4f84360f6d1131188
+      internalID: -651726901146305865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LavaBoss_24
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 775
+        width: 113
+        height: 91
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6cdd8982aa7039f498a4d82fee886de2
+      internalID: -2994061604801911267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LavaBoss_25
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 775
+        width: 109
+        height: 91
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80ea3e6a20d892941978e370ef2988f2
+      internalID: 6602090935843324769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LavaBoss_26
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 775
+        width: 111
+        height: 87
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84e57c7dd0677d145b0c97d76de79823
+      internalID: -961889216401440293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LavaBoss_27
+      rect:
+        serializedVersion: 2
+        x: 645
+        y: 775
+        width: 106
+        height: 82
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0ab05c4221680344951d594d1cb4c06
+      internalID: -8413874306769533692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LavaBoss_28
+      rect:
+        serializedVersion: 2
+        x: 753
+        y: 775
+        width: 102
+        height: 85
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f9713bac3da02140b286db5a7c93ea3
+      internalID: 3568633396434565525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LavaBoss_29
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 673
+        width: 97
+        height: 89
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd92ae66932caba4fb404eac309e337c
+      internalID: 3901326171365881116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LavaBoss_30
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 673
+        width: 99
+        height: 90
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfc669249f333c9418f287cf5ee3f297
+      internalID: 7389069716556504579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LavaBoss_31
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 673
+        width: 99
+        height: 83
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e2b9673daa8e1845836b2ef614d248e
+      internalID: -9080995901587677055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LavaBoss_32
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 673
+        width: 97
+        height: 83
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59340bf2a91a5b04c9617b2daaacacfb
+      internalID: -2870589930268448438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LavaBoss_33
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 672
+        width: 110
+        height: 85
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fbac9430b4b3784a800281d09f761ef
+      internalID: 336511597599381424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LavaBoss_34
+      rect:
+        serializedVersion: 2
+        x: 571
+        y: 673
+        width: 119
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22f1b368a43625f499629a742bdb7fa2
+      internalID: -2310163250180432875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LavaBoss_35
+      rect:
+        serializedVersion: 2
+        x: 692
+        y: 673
+        width: 114
+        height: 66
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92a5aff51cd0b8645a73884fbaadc730
+      internalID: 343089889228502682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LavaBoss_37
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 604
+        width: 118
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: baf700e5d82dfb846aa088f5aeeb6f97
+      internalID: 4206009014746068368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LavaBoss_38
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 604
+        width: 123
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77843555cdb152647ad9a708a2e6c429
+      internalID: 1754731856849108487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LavaBoss_39
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 604
+        width: 103
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efedcfeb60a84874ab9d4ad4dccd5f12
+      internalID: 6970143722694234183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LavaBoss_40
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 604
+        width: 101
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31b642a43b0363c4d9814de69bcc7c0d
+      internalID: 7080181263447506807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LavaBoss_41
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 605
+        width: 100
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 490d6076707213b4d813e15c716949fe
+      internalID: -8404953871660875063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LavaBoss_42
+      rect:
+        serializedVersion: 2
+        x: 634
+        y: 605
+        width: 82
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd55c952e397d0344ba35a31e2ed8b90
+      internalID: 8362103919217333805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LavaBoss_53
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 489
+        width: 60
+        height: 10
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97125d9d83617264f8c1786662bac1dc
+      internalID: -8863209896635462978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LavaBoss_54
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 489
+        width: 64
+        height: 13
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69d0be94ef6cb694e805a15524302026
+      internalID: 2485277086991771857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LavaBoss_55
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 489
+        width: 68
+        height: 15
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 234123ecadbade0458044984e4eeba55
+      internalID: 1909751422000749835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LavaBoss_56
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 489
+        width: 37
+        height: 23
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac74ab6a9ec3dbf489d8b3f6e6a3b84b
+      internalID: 3478723075494715464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LavaBoss_57
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 489
+        width: 58
+        height: 68
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56a5d416451b4474c83bbf93c5562ce0
+      internalID: -6167615494540602711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LavaBoss_58
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 489
+        width: 74
+        height: 76
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f38fb644a622e340bd439814901ae60
+      internalID: -4562391578297650917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LavaBoss_59
+      rect:
+        serializedVersion: 2
+        x: 501
+        y: 489
+        width: 80
+        height: 90
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01227b76e2ce1e34b882c35f2c180bad
+      internalID: 6577273786182208351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LavaBoss_60
+      rect:
+        serializedVersion: 2
+        x: 583
+        y: 489
+        width: 72
+        height: 105
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fb2d0d1255b5d7428c4da7eac669a06
+      internalID: 4361054295970280118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LavaBoss_61
+      rect:
+        serializedVersion: 2
+        x: 657
+        y: 489
+        width: 72
+        height: 100
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7087f058dbbc9542b621d6937ea257a
+      internalID: 4826418675324834489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LavaBoss_62
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 373
+        width: 70
+        height: 98
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5285cf944b74c749981dfec043b88c3
+      internalID: 4228796205695435429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LavaBoss_63
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 372
+        width: 72
+        height: 103
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e370a5c1bbec0145a31dce940c9dbd8
+      internalID: 1296012941939638165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LavaBoss_64
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 373
+        width: 71
+        height: 101
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: adfe85e310231c24b968bc96fe458cd5
+      internalID: -7169171536526914391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LavaBoss_65
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 373
+        width: 64
+        height: 99
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdaa8a21623afb346ad3382dd793a5e4
+      internalID: 4575119286570850565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LavaBoss_66
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 374
+        width: 62
+        height: 97
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eaf97cac2b4834245b77308198468480
+      internalID: 425293740525394976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LavaBoss_67
+      rect:
+        serializedVersion: 2
+        x: 478
+        y: 374
+        width: 58
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb0d989171534194ba50a68ae97c90a8
+      internalID: 3673964231449987864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LavaBoss_68
+      rect:
+        serializedVersion: 2
+        x: 538
+        y: 375
+        width: 56
+        height: 92
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c2da37d8e1022243848ff3200a3ca93
+      internalID: -6517844944204339053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LavaBoss_69
+      rect:
+        serializedVersion: 2
+        x: 596
+        y: 374
+        width: 49
+        height: 82
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 226009834a859cb438558d0045e187b4
+      internalID: -7962090747105222551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LavaBoss_70
+      rect:
+        serializedVersion: 2
+        x: 647
+        y: 374
+        width: 45
+        height: 34
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67f6d92a0c9936449975e7e43e3686f2
+      internalID: 4437393088884940372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LavaBoss_71
+      rect:
+        serializedVersion: 2
+        x: 694
+        y: 374
+        width: 35
+        height: 15
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69bde1effa1a78942b12aac85b603585
+      internalID: 8937054114782817709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LavaBoss_72
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 176
+        width: 50
+        height: 182
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38d6f56c8eb29a9439408258bbc586a0
+      internalID: -974110438119419689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LavaBoss_73
+      rect:
+        serializedVersion: 2
+        x: 472
+        y: 176
+        width: 47
+        height: 189
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fef292acfe515a247898c1ebf1108bd0
+      internalID: 8212699595567990467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LavaBoss_74
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 175
+        width: 49
+        height: 190
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 773006791bedffb41870821e4793b331
+      internalID: -631835846981715347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LavaBoss_75
+      rect:
+        serializedVersion: 2
+        x: 572
+        y: 178
+        width: 49
+        height: 187
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bef1acc0c7f6b56469562c7305444abf
+      internalID: 6039832327734324816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LavaBoss_76
+      rect:
+        serializedVersion: 2
+        x: 623
+        y: 180
+        width: 32
+        height: 185
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5acc98bf3293abc4a8535a11b48035b7
+      internalID: 8564652294888287686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LavaBoss_77
+      rect:
+        serializedVersion: 2
+        x: 657
+        y: 180
+        width: 32
+        height: 185
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5465ce2ae5bbb264d9cabb16ca271dde
+      internalID: 7795933669169050994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LavaBoss_78
+      rect:
+        serializedVersion: 2
+        x: 691
+        y: 215
+        width: 40
+        height: 150
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 231fbb6a4a15c0243914c0ed4388467e
+      internalID: -4566083923637438946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LavaBoss_80
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 177
+        width: 96
+        height: 87
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7fc8d8414075144cba3cb63c9808ccd
+      internalID: -6536882632221586414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LavaBoss_81
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 177
+        width: 88
+        height: 98
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18f1507efe00677438f45fb7371ff7f1
+      internalID: 2051904383482880720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LavaBoss_82
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 177
+        width: 70
+        height: 128
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae18418643f7e5343aa4c4aea38ffe30
+      internalID: -7472575089383700865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LavaBoss_83
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 177
+        width: 53
+        height: 151
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92078f5814c0e8143bfceb626203b01c
+      internalID: -3019948671760892887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LavaBoss_89
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 86
+        width: 34
+        height: 53
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2b32c57593fb094db6cf28d1814874a
+      internalID: -8238133421919211475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LavaBoss_90
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 129
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45dec1801b6e4be4ca060e1ce01e3450
+      internalID: 675156579090096917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LavaBoss_91
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 86
+        width: 36
+        height: 52
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 381c378588a575d4d8bbb58abec4bf04
+      internalID: -8626294629110271441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LavaBoss_92
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 68
+        width: 97
+        height: 89
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7a20a186b4332b4a8719f38a02eee10
+      internalID: -6101862516279832735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LavaBoss_93
+      rect:
+        serializedVersion: 2
+        x: 535
+        y: 68
+        width: 97
+        height: 89
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50973779d85831d4092e910cf3e315fe
+      internalID: -8440109066368343239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LavaBoss_94
+      rect:
+        serializedVersion: 2
+        x: 634
+        y: 68
+        width: 97
+        height: 89
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37934f6716f085c48a739815785d3ec8
+      internalID: 8511038178003717178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LavaBoss_95
+      rect:
+        serializedVersion: 2
+        x: 733
+        y: 67
+        width: 97
+        height: 89
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd0280320ba2212419de1cd1f0233b09
+      internalID: 3307244269723470801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LavaBoss_96
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 86
+        width: 32
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b4d19e16d8f1cf4ab83209baf5383de
+      internalID: -679227973529231748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LavaBoss_97
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 86
+        width: 47
+        height: 28
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 398237e4f27196d448f7e622100f9e4b
+      internalID: 4426710017180501070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LavaBoss_98
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 111
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34ca871680422ae4ea268f640746fd88
+      internalID: -592545897692912590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LavaBoss_99
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 86
+        width: 59
+        height: 19
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d273917d92ae1f64eb0405c28e22ed14
+      internalID: 5381392310329740404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LavaBoss_100
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 86
+        width: 65
+        height: 13
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7912bb47a2b6f3247a0d8ff3840e020d
+      internalID: -8761879862617779285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LavaBoss_101
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 86
+        width: 64
+        height: 17
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f7aa322897ebcd48b57bfdac27985e3
+      internalID: -618410195112795353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LavaBoss_102
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 86
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 920214cee2cc55f458f2fcfc51fcdf47
+      internalID: 6968357309862871965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LavaBoss_103
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 84
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44ba70bccb3a28f4db06e3f2c784ce2f
+      internalID: 6590712209588058136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LavaBoss_104
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 86
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d77671c5bf21ed4ea53420bdb4ce740
+      internalID: -825857228442179110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LavaBoss_105
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 88
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d126e50a819964449a5f6b02b6925a2
+      internalID: 2298859933050312468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []

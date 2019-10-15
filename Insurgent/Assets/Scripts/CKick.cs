@@ -15,5 +15,9 @@ public class CKick : MonoBehaviour
         {
             coll.gameObject.GetComponent<Enemy>().TakeDamage(damage);
         }
+        else if (coll.CompareTag("EnemyB"))
+        {
+            coll.GetComponent<EnemyB>().TakeDamage(damage);
+        }
     }
 }

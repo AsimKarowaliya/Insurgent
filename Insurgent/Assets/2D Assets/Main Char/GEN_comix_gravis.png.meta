@@ -251,6 +251,9 @@ TextureImporter:
   - first:
       213: 8479791362391468341
     second: GEN_comix_gravis_82
+  - first:
+      213: 1323269001100969280
+    second: GEN_comix_gravis_83
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -2073,6 +2076,27 @@ TextureImporter:
       bones: []
       spriteID: 5399791e267b8794d91a57594a03f32a
       internalID: -7608736531096986054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GEN_comix_gravis_83
+      rect:
+        serializedVersion: 2
+        x: 667
+        y: 719
+        width: 55
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: beed38dd9454c444984ac75492591e9b
+      internalID: 1323269001100969280
       vertices: []
       indices: 
       edges: []
