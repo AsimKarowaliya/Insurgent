@@ -8,4 +8,25 @@ EditorBuildSettings:
   - enabled: 0
     path: 
     guid: 00000000000000000000000000000000
+  - enabled: 1
+    path: Assets/Scenes/Main Menu.unity
+    guid: afdde3ff129d4854ea3712dde52c6286
+  - enabled: 1
+    path: Assets/Scenes/InGame.unity
+    guid: f6c7911063bb20a4db0460748ff4285c
+  - enabled: 1
+    path: Assets/Scenes/Options menu test.unity
+    guid: 55a75decfe6edeb4197ecb4a87986916
+  - enabled: 1
+    path: Assets/Scenes/Pause Screen.unity
+    guid: 9051efffea559cb4e9070448109b55d4
+  - enabled: 0
+    path: Assets/Scenes/Main Screen.unity
+    guid: c36a349bc9cd55b42bc28cb3307940b3
+  - enabled: 1
+    path: Assets/Scenes/BossBattle.unity
+    guid: 429df4ced0fe8fb40b2042b12b7d7347
+  - enabled: 1
+    path: Assets/Scenes/Game.unity
+    guid: ad2f5a7301b45664c9bcf48f9776b0b1
   m_configObjects: {}
