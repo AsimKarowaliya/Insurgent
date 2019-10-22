@@ -15,6 +15,13 @@ public class PlayerMovement : MonoBehaviour
     public bool jj = false;
     public bool crouch = false;
 
+    private coinMaster cm;
+
+    void Start()
+    {
+        cm = GameObject.Find("Coinmaster").GetComponent<coinMaster>();
+    }
+
     void Update()
     {
 
@@ -57,5 +64,14 @@ public class PlayerMovement : MonoBehaviour
         // Move our character
         controller.Move(horizontalMove * Time.fixedDeltaTime, crouch, jump);
         jump = false;
+    }
+    void OnTriggerEnter2D(Collider2D col)
+    {
+        if (col.CompareTag("coin"))
+        {
+            Destroy(col.gameObject);
+            cm.points += 10;
+
+        }
     }
 }
