@@ -3,15 +3,7 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags:
-  - Bullet
-  - Flash
-  - Enemy
-  - flykick
-  - EnemyB
-  - Tiles
-  - Heart
-  - LavaBoss
+  tags: []
   layers:
   - Default
   - TransparentFX
@@ -21,7 +13,7 @@ TagManager:
   - UI
   - 
   - 
-  - Player
+  - 
   - 
   - 
   - 
@@ -46,15 +38,6 @@ TagManager:
   - 
   - 
   m_SortingLayers:
-  - name: Back
-    uniqueID: 2731126009
-    locked: 0
   - name: Default
     uniqueID: 0
-    locked: 0
-  - name: Front
-    uniqueID: 2537912713
-    locked: 0
-  - name: Lava
-    uniqueID: 2672598873
     locked: 0
