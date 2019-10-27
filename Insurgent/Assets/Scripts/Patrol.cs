@@ -6,11 +6,24 @@ public class Patrol : MonoBehaviour
 {
     public float speed;
     public float distance;
-    private bool goingRight = true;
+    public bool goingRight = true;
     public Transform target;
 
-    void FixedUpdate()
+    private float dazedTime;
+    public float startDazedTime;
+
+    void Update()
     {
+        if(dazedTime <= 0)
+        {
+            speed = 2;
+        }
+        else
+        {
+            speed = 0;
+            dazedTime -= Time.deltaTime;
+        }
+
         transform.Translate(Vector2.right * speed * Time.deltaTime);
         RaycastHit2D groundInfo = Physics2D.Raycast(target.position, Vector2.down, distance);
         if (groundInfo.collider == false)
@@ -41,5 +54,10 @@ public class Patrol : MonoBehaviour
                 goingRight = true;
             }
         }
+    }
+
+    public void resetDT()
+    {
+        dazedTime = startDazedTime;
     }
 }

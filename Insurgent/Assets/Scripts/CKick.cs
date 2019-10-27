@@ -6,6 +6,7 @@ public class CKick : MonoBehaviour
 {
     public Animator animator;
     public int damage = 40;
+    public GameObject kickEffect;
 
     void OnTriggerEnter2D(Collider2D coll)
     {
@@ -19,5 +20,6 @@ public class CKick : MonoBehaviour
         {
             coll.GetComponent<EnemyB>().TakeDamage(damage);
         }
+        Instantiate(kickEffect, transform.position, transform.rotation);
     }
 }

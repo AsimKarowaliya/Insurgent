@@ -30,6 +30,18 @@ public class Bullet : MonoBehaviour
         {
             hitInfo.GetComponent<EnemyB>().TakeDamage(damage);
         }
+        else if (hitInfo.CompareTag("Tiles"))
+        {
+            Destroy(gameObject);
+        }
+        else if (hitInfo.CompareTag("LavaBoss"))
+        {
+            Destroy(gameObject);
+        }
+        else
+        {
+            return;
+        }
 
         Instantiate(flashEffect, transform.position, transform.rotation);
         // impact sound

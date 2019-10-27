@@ -30,11 +30,11 @@ public class Weapon : MonoBehaviour
             PlayerMovement rs = GetComponent<PlayerMovement>();
             rs.runSpeed = 0;
 
-            if (chargeTimer > 2)
+            if (chargeTimer > 1)
             {
                 fullCharge = true;
             }
-            else if (chargeTimer < 2 || animator.GetBool("IsCrouching") == true || animator.GetBool("IsJumping") == true)
+            else if (chargeTimer < 1 || animator.GetBool("IsCrouching") == true || animator.GetBool("IsJumping") == true)
             {
                 fullCharge = false;
             }
@@ -70,14 +70,14 @@ public class Weapon : MonoBehaviour
 
             if (Input.GetButtonDown("Fire2"))
             {
-                timeBtwAttack = startTimeBtwAttack;
+                //timeBtwAttack = startTimeBtwAttack;
                 animator.SetBool("IsKicking", true);
                 Invoke("Delay", 0.2f);
             }
 
             if (pm.jj == true && Input.GetButtonDown("Fire2"))
             {
-                timeBtwAttack = startTimeBtwAttack;
+                //timeBtwAttack = startTimeBtwAttack;
                 animator.SetBool("FlyKick", true);
                 animator.SetBool("IsJumping", false);
             }

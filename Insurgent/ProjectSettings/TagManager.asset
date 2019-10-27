@@ -10,6 +10,8 @@ TagManager:
   - flykick
   - EnemyB
   - Tiles
+  - Heart
+  - LavaBoss
   layers:
   - Default
   - TransparentFX

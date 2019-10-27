@@ -10,11 +10,6 @@ public class PauseMenu : MonoBehaviour
 
     public GameObject pauseMenuUI;
 
-
-  
-
-
-
     void Update()
     {
         if (Input.GetKeyDown(KeyCode.Escape))
@@ -29,25 +24,18 @@ public class PauseMenu : MonoBehaviour
             }
         }
     }
-    //resume
-    //exit - needs are you sure yes or no not save game
-    //otpions - make options menu work 
-    void Resume()
+
+    public void Resume()
     {
         pauseMenuUI.SetActive(false);
-        Time.timeScale = 1;
+        Time.timeScale = 1f;
         GameIsPaused = false;
     }
 
-    
-
-
     void Pause()
     {
-        
-
         pauseMenuUI.SetActive(true);
-        Time.timeScale = 0;
+        Time.timeScale = 0f;
         GameIsPaused = true;
     }
 
@@ -55,12 +43,27 @@ public class PauseMenu : MonoBehaviour
     public void LoadMenu()
     {
         // Debug.Log("Loading menu..");
+        Time.timeScale = 1f;
         SceneManager.LoadScene("Main Menu");
+    }
+
+    public void BossBattle()
+    {
+        // Debug.Log("Loading menu..");
+        Time.timeScale = 1f;
+        SceneManager.LoadScene("BossBattle");
     }
 
     public void QuiteGame()
     {
         Debug.Log("Quitting game..");
+        //Application.Quit();
+        SceneManager.LoadScene("Main Menu");
+    }
+
+    public void ExitGame()
+    {
+        Debug.Log("Exiting game..");
         Application.Quit();
     }
 

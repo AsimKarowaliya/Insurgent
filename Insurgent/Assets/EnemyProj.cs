@@ -21,7 +21,7 @@ public class EnemyProj : MonoBehaviour
     {
         transform.position = Vector2.MoveTowards(transform.position, target, speed * Time.deltaTime);
 
-        if(transform.position.x == target.x && transform.position.y == target.y)
+        if (transform.position.x == target.x && transform.position.y == target.y)
         {
             DestroyProj();
         }
@@ -36,12 +36,20 @@ public class EnemyProj : MonoBehaviour
             HealthSystem SN = coll.GetComponent<HealthSystem>();
             SN.playerHealth -= 1;
         }
+        else if (coll.CompareTag("Tiles"))
+        {
+            DestroyProj();
+        }
+        else
+        {
+            return;
+        }
     }
 
     void DestroyProj()
     {
         Destroy(gameObject);
         Instantiate(flashEffect, transform.position, transform.rotation);
-        Destroy(other);
+        Destroy(other, 1.0f);
     }
 }

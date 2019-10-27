@@ -39,6 +39,16 @@ public class PlayerMovement : MonoBehaviour
             crouch = false;
         }
 
+        HealthSystem SN = GetComponent<HealthSystem>();
+        if(SN.playerHealth <= 0)
+        {
+            animator.SetTrigger("IsDead");
+            CharacterController2D CC = GetComponent<CharacterController2D>();
+            CC.playerdead = true;
+            animator.SetBool("IsJumping", false);
+            horizontalMove = 0;
+        }
+
     }
 
     public void OnLanding ()

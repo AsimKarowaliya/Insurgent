@@ -220,7 +220,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   firePoint: {fileID: 2313981263209695298}
   proj: {fileID: 3520662178100304868, guid: 761c89f24aef3164c999f87785348cee, type: 3}
-  health: 100
+  health: 3
   animator: {fileID: 2313981262538258832}
   startTimeBtwShots: 2
   targetleft: {fileID: 2313981261883986800}

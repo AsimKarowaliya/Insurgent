@@ -15,14 +15,11 @@ public class HealthSystem : MonoBehaviour
     public Sprite emptyHearts;
 
     GameObject plya;
-    public Material whiteF;
-    private Material matDef;
+
 
     void Start()
     {
         plya = GameObject.FindGameObjectWithTag("Player");
-        matDef = plya.GetComponent<SpriteRenderer>().material;
-        whiteF = Resources.Load("WhiteFlash", typeof(Material)) as Material;
     }
 
     void Update()

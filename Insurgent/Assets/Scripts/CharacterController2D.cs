@@ -29,8 +29,18 @@ public class CharacterController2D : MonoBehaviour
 
 	public BoolEvent OnCrouchEvent;
 	private bool m_wasCrouching = false;
+    public bool playerdead = false;
 
-	private void Awake()
+    void Update()
+    {
+        if (playerdead == true)
+        {
+            m_JumpForce = 0f;
+        }
+            
+    }
+
+    private void Awake()
 	{
 		m_Rigidbody2D = GetComponent<Rigidbody2D>();
 

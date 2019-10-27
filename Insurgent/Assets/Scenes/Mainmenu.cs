@@ -12,6 +12,7 @@ public class Mainmenu : MonoBehaviour
     public void PlayGame()
     {
         //SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+        Time.timeScale = 1f;
         SceneManager.LoadScene("InGame");
         
     }
@@ -22,7 +23,7 @@ public class Mainmenu : MonoBehaviour
         SceneManager.LoadScene("Options menu test");
     }
 
-    public void QuiteGame()
+    public void ExitGame()
     {
         Debug.Log("QUIT");
         Application.Quit();

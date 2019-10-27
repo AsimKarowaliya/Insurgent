@@ -53,7 +53,9 @@ public class EnemyB : MonoBehaviour
                 insideZone = false;
             }
 
-            if (insideZone == true)
+            GameObject plyahealth = GameObject.Find("Player");
+            HealthSystem SN = plyahealth.GetComponent<HealthSystem>();
+            if (insideZone == true && SN.playerHealth != 0)
             {
                 animator.SetBool("ThrowFireball", true);
                 timeBtwShots = startTimeBtwShots;
@@ -73,9 +75,10 @@ public class EnemyB : MonoBehaviour
 
     public void TakeDamage(int damage)
     {
+        
         health -= damage;
         this.transform.Translate(Vector2.right * 15 * Time.deltaTime);
-        healthBar.fillAmount = health / 100;
+        healthBar.fillAmount = health / 4;
 
         if (health <= 0)
         {

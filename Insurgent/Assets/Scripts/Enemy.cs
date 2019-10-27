@@ -17,9 +17,21 @@ public class Enemy : MonoBehaviour
 
     public void TakeDamage(int damage)
     {
+        Patrol rdt = GetComponent<Patrol>();
+        rdt.resetDT();
         health -= damage;
-        this.transform.Translate(Vector2.left * 25 * Time.deltaTime);
-        healthBar.fillAmount = health / 100;
+
+        Patrol PT = this.GetComponent<Patrol>();
+        if (PT.goingRight == true)
+        {
+            this.transform.Translate(Vector2.right * 15 * Time.deltaTime);
+        }
+        else
+        {
+            this.transform.Translate(Vector2.left * 15 * Time.deltaTime);
+        }
+        
+        healthBar.fillAmount = health / 3;
 
         if (health <= 0)
         {
@@ -34,6 +46,12 @@ public class Enemy : MonoBehaviour
         //Debug.Log(gameObject.name);
 
         if (coll.CompareTag("Bullet"))
+        {
+            GetComponent<SpriteRenderer>().color = Color.red;
+            Invoke("ResetMat", 0.2f);
+        }
+
+        if (coll.CompareTag("flykick"))
         {
             GetComponent<SpriteRenderer>().color = Color.red;
             Invoke("ResetMat", 0.2f);

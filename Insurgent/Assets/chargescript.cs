@@ -20,11 +20,11 @@ public class chargescript : MonoBehaviour
             charge = 0;
         }
 
-        if (charge > 2)
+        if (charge > 1)
         {
             charge = 0;
         }
 
-        chargebar.fillAmount = charge/2;
+        chargebar.fillAmount = charge/1;
     }
 }
