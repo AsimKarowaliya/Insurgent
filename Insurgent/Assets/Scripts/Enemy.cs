@@ -57,12 +57,15 @@ public class Enemy : MonoBehaviour
             Invoke("ResetMat", 0.2f);
         }
 
-        if (coll.CompareTag("Player"))
+        GameObject thePlayer = GameObject.Find("Player");
+        HealthSystem hs = thePlayer.GetComponent<HealthSystem>();
+        if (coll.CompareTag("Player") && hs.playerresettime <= 0)
         {
             Instantiate(DeathEffect, transform.position, Quaternion.identity);
             Destroy(gameObject);
             HealthSystem SN = coll.GetComponent<HealthSystem>();
             SN.playerHealth -= 1;
+            SN.playerresettime = 2;
         }
 
     }

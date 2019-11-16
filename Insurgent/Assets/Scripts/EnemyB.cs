@@ -7,6 +7,8 @@ public class EnemyB : MonoBehaviour
 {
     public Transform firePoint;
     public GameObject proj;
+    public GameObject DeathEffect;
+
     Image healthBar;
     public float health = 100;
 
@@ -82,7 +84,7 @@ public class EnemyB : MonoBehaviour
 
         if (health <= 0)
         {
-            //Instantiate(DeathEffect, transform.position, Quaternion.identity);
+            Instantiate(DeathEffect, transform.position, Quaternion.identity);
             Destroy(gameObject);
         }
     }

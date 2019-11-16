@@ -20,6 +20,10 @@ public class CKick : MonoBehaviour
         {
             coll.GetComponent<EnemyB>().TakeDamage(damage);
         }
+        else if (coll.CompareTag("Enemy_Fire"))
+        {
+            coll.GetComponent<Enemy_fireh>().TakeDamage(damage);
+        }
         Instantiate(kickEffect, transform.position, transform.rotation);
     }
 }

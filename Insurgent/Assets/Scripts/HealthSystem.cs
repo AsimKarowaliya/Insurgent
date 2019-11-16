@@ -10,6 +10,8 @@ public class HealthSystem : MonoBehaviour
     public int numOfHearts;
     private int oldplayerHealth;
 
+    public float playerresettime = 0;
+
     public Image[] hearts;
     public Sprite fullHearts;
     public Sprite emptyHearts;
@@ -52,6 +54,27 @@ public class HealthSystem : MonoBehaviour
             }
         }
 
+        if (playerresettime > 0 && playerHealth > 0)
+        {
+            playerresettime -= Time.deltaTime;
+            playerflash();
+        }
+
+    }
+
+    void playerflash()
+    {
+        Invoke("sc", 0.1f);
+        Invoke("rsc", 0.51f);
+    }
+
+    void rsc()
+    {
+        plya.GetComponent<SpriteRenderer>().color = new Color(1f, 1f, 1f, 1f);
+    }
+    void sc()
+    {
+        plya.GetComponent<SpriteRenderer>().color = new Color(1f, 1f, 1f, 0.25f);
     }
 
 }

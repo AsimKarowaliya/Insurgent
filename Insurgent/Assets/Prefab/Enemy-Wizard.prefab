@@ -220,6 +220,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   firePoint: {fileID: 2313981263209695298}
   proj: {fileID: 3520662178100304868, guid: 761c89f24aef3164c999f87785348cee, type: 3}
+  DeathEffect: {fileID: 99434729048243658, guid: 72f9b4b88d75bfe409bbfc7a8b534d3c,
+    type: 3}
   health: 3
   animator: {fileID: 2313981262538258832}
   startTimeBtwShots: 2

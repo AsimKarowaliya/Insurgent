@@ -12,6 +12,7 @@ TagManager:
   - Tiles
   - Heart
   - LavaBoss
+  - Enemy_Fire
   layers:
   - Default
   - TransparentFX

@@ -30,11 +30,16 @@ public class EnemyProj : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D coll)
     {
-        if (coll.CompareTag("Player"))
+
+        GameObject thePlayer = GameObject.Find("Player");
+        HealthSystem hs = thePlayer.GetComponent<HealthSystem>();
+
+        if (coll.CompareTag("Player") && hs.playerresettime <= 0)
         {
             DestroyProj();
             HealthSystem SN = coll.GetComponent<HealthSystem>();
             SN.playerHealth -= 1;
+            SN.playerresettime = 2.5f;
         }
         else if (coll.CompareTag("Tiles"))
         {

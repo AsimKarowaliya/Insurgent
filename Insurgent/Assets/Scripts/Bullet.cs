@@ -30,6 +30,10 @@ public class Bullet : MonoBehaviour
         {
             hitInfo.GetComponent<EnemyB>().TakeDamage(damage);
         }
+        else if (hitInfo.CompareTag("Enemy_Fire"))
+        {
+            hitInfo.GetComponent<Enemy_fireh>().TakeDamage(damage);
+        }
         else if (hitInfo.CompareTag("Tiles"))
         {
             Destroy(gameObject);

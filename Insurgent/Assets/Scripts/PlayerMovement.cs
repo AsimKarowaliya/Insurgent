@@ -49,6 +49,8 @@ public class PlayerMovement : MonoBehaviour
             horizontalMove = 0;
         }
 
+        
+
     }
 
     public void OnLanding ()
