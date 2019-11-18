@@ -12,10 +12,14 @@ public class Bullet : MonoBehaviour
     public GameObject flashEffect;
     GameObject other;
 
+    private Shake shake;
+
     void Start()
     {
         rb.velocity = transform.right * speed;
         other = GameObject.FindGameObjectWithTag("Flash");
+
+        shake = GameObject.FindGameObjectWithTag("ScreenShake").GetComponent<Shake>();
     }
 
     void OnTriggerEnter2D(Collider2D hitInfo)
@@ -24,14 +28,17 @@ public class Bullet : MonoBehaviour
 
         if (hitInfo.CompareTag("Enemy"))
         {
+            shake.CamShake();
             hitInfo.GetComponent<Enemy>().TakeDamage(damage);
         }
         else if (hitInfo.CompareTag("EnemyB"))
         {
+            shake.CamShake();
             hitInfo.GetComponent<EnemyB>().TakeDamage(damage);
         }
         else if (hitInfo.CompareTag("Enemy_Fire"))
         {
+            shake.CamShake();
             hitInfo.GetComponent<Enemy_fireh>().TakeDamage(damage);
         }
         else if (hitInfo.CompareTag("Tiles"))
