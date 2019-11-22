@@ -18,7 +18,6 @@ public class Bullet : MonoBehaviour
     {
         rb.velocity = transform.right * speed;
         other = GameObject.FindGameObjectWithTag("Flash");
-
         shake = GameObject.FindGameObjectWithTag("ScreenShake").GetComponent<Shake>();
     }
 
@@ -47,7 +46,14 @@ public class Bullet : MonoBehaviour
         }
         else if (hitInfo.CompareTag("LavaBoss"))
         {
+            shake.CamShake();
             Destroy(gameObject);
+            hitInfo.GetComponent<bossScript>().TakeDamage(damage);
+        }
+        else if (hitInfo.CompareTag("bat"))
+        {
+            Destroy(gameObject);
+            hitInfo.GetComponent<batScript>().TakeDamage(damage);
         }
         else
         {

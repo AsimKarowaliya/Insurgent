@@ -37,6 +37,10 @@ public class CharacterController2D : MonoBehaviour
         {
             m_JumpForce = 0f;
         }
+        else
+        {
+            m_JumpForce = 650f;
+        }
             
     }
 

@@ -7,25 +7,36 @@ public class chargescript : MonoBehaviour
 {
     public Image chargebar;
     public float charge = 0;
+    private float tba;
+    private float stba = 1;
     public KeyCode ck;
     public KeyCode ck1;
 
     void Update()
     {
-        if (Input.GetKey(ck) || Input.GetKey(ck1))
+        if(tba <= 0)
         {
-            charge += Time.deltaTime;
+            if (Input.GetKey(ck) || Input.GetKey(ck1))
+            {
+                charge += Time.deltaTime;
+            }
+            else
+            {
+                charge = 0;
+            }
+
+            if (charge > 2)
+            {
+                charge = 0;
+                tba = stba;
+            }
+
+            chargebar.fillAmount = charge / 2;
         }
         else
         {
-            charge = 0;
+            tba -= Time.deltaTime;
         }
-
-        if (charge > 1)
-        {
-            charge = 0;
-        }
-
-        chargebar.fillAmount = charge/1;
+        
     }
 }

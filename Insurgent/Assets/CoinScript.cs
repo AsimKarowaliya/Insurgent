@@ -4,7 +4,6 @@ using UnityEngine;
 
 public class CoinScript : MonoBehaviour
 {
-
     void OnTriggerEnter2D(Collider2D col)
     {
         GameObject textC = GameObject.Find("TotalCoinText");
@@ -12,6 +11,7 @@ public class CoinScript : MonoBehaviour
 
         if (col.CompareTag("Player"))
         {
+            smScript.PlaySound("coin-sound");
             Destroy(gameObject);
             TC.coins += 1;
         }

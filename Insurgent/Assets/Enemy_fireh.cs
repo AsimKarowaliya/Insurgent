@@ -8,6 +8,7 @@ public class Enemy_fireh : MonoBehaviour
     public GameObject healthBar;
     public float health = 100;
     public GameObject DeathEffect;
+    public GameObject bodyEffect;
     public Animator FireAnim;
 
     public void TakeDamage(int damage)
@@ -25,14 +26,18 @@ public class Enemy_fireh : MonoBehaviour
         //{
         //    this.transform.Translate(Vector2.left * 15 * Time.deltaTime);
         //}
-
-        healthBar.gameObject.GetComponent<Image>().fillAmount = health / 3;
+        if(health >= 0)
+        {
+            healthBar.gameObject.GetComponent<Image>().fillAmount = health / 3;
+        }
+        
 
         if (health <= 0)
         {
             Instantiate(DeathEffect, transform.position, Quaternion.identity);
-            FireAnim.SetBool("enemydead", true);
-            Destroy(gameObject, 2f);
+            Instantiate(bodyEffect, transform.position, Quaternion.identity);
+            //FireAnim.SetBool("enemydead", true);
+            Destroy(gameObject);
             Destroy(healthBar);
             // enemy explosion sound
         }
@@ -54,14 +59,18 @@ public class Enemy_fireh : MonoBehaviour
             Invoke("ResetMat", 0.2f);
         }
 
-        if (coll.CompareTag("Player"))
+        GameObject thePlayer = GameObject.Find("Player");
+        HealthSystem hs = thePlayer.GetComponent<HealthSystem>();
+        if (coll.CompareTag("Player") && hs.playerresettime <= 0)
         {
             Instantiate(DeathEffect, transform.position, Quaternion.identity);
+            Instantiate(bodyEffect, transform.position, Quaternion.identity);
             FireAnim.SetBool("enemydead", true);
-            Destroy(gameObject, 2f);
+            Destroy(gameObject);
             Destroy(healthBar);
             HealthSystem SN = coll.GetComponent<HealthSystem>();
             SN.playerHealth -= 1;
+            SN.playerresettime = 2;
         }
 
     }

@@ -8,7 +8,6 @@ public class HealthSystem : MonoBehaviour
 
     public int playerHealth;
     public int numOfHearts;
-    private int oldplayerHealth;
 
     public float playerresettime = 0;
 
@@ -21,12 +20,12 @@ public class HealthSystem : MonoBehaviour
 
     void Start()
     {
+        playerresettime = 0;
         plya = GameObject.FindGameObjectWithTag("Player");
     }
 
     void Update()
     {
-        oldplayerHealth = playerHealth;
 
         if (playerHealth > numOfHearts)
         {

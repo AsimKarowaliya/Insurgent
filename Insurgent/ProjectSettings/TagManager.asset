@@ -13,6 +13,9 @@ TagManager:
   - Heart
   - LavaBoss
   - Enemy_Fire
+  - ScreenShake
+  - targer_ai
+  - bat
   layers:
   - Default
   - TransparentFX

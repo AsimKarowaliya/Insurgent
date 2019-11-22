@@ -22,7 +22,9 @@ public class PlayerMovement : MonoBehaviour
 
         animator.SetFloat("Speed", Mathf.Abs(horizontalMove));
 
-        if (Input.GetButtonDown("Jump"))
+        CharacterController2D CC = GetComponent<CharacterController2D>();
+
+        if (Input.GetButtonDown("Jump") && CC.playerdead == false)
         {
             jump = true;
             jj = true;
@@ -43,13 +45,10 @@ public class PlayerMovement : MonoBehaviour
         if(SN.playerHealth <= 0)
         {
             animator.SetTrigger("IsDead");
-            CharacterController2D CC = GetComponent<CharacterController2D>();
             CC.playerdead = true;
             animator.SetBool("IsJumping", false);
             horizontalMove = 0;
         }
-
-        
 
     }
 

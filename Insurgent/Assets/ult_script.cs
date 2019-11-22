@@ -25,8 +25,14 @@ public class ult_script : MonoBehaviour
         {
             Info.GetComponent<EnemyB>().TakeDamage(damage);
         }
+        else if (Info.CompareTag("Enemy_Fire"))
+        {
+            //shake.CamShake();
+            Info.GetComponent<Enemy_fireh>().TakeDamage(damage);
+        }
         else if (Info.CompareTag("LavaBoss"))
         {
+            Info.GetComponent<bossScript>().TakeDamage(damage);
             Destroy(gameObject, ultTime);
         }
         else

@@ -1,0 +1,2584 @@
+fileFormatVersion: 2
+guid: 932c4b41765c30542a0ae8325ee733d2
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5355155558836854353
+    second: fire-attack_0
+  - first:
+      213: 4451320617357220323
+    second: fire-attack_1
+  - first:
+      213: 4938263607954642666
+    second: fire-attack_2
+  - first:
+      213: 4265965580167913592
+    second: fire-attack_3
+  - first:
+      213: 409407191513285052
+    second: fire-attack_4
+  - first:
+      213: -2412690367501799309
+    second: fire-attack_5
+  - first:
+      213: -2386147399497433716
+    second: fire-attack_6
+  - first:
+      213: 8606638993559634025
+    second: fire-attack_7
+  - first:
+      213: 3644200269321978422
+    second: fire-attack_8
+  - first:
+      213: 2443755056804675781
+    second: fire-attack_9
+  - first:
+      213: -5983375859141512803
+    second: fire-attack_10
+  - first:
+      213: -5477075720641006177
+    second: fire-attack_11
+  - first:
+      213: -5685303595689743180
+    second: fire-attack_12
+  - first:
+      213: 5181099014888665005
+    second: fire-attack_13
+  - first:
+      213: 7614230188618310805
+    second: fire-attack_14
+  - first:
+      213: -2694273085293952864
+    second: fire-attack_15
+  - first:
+      213: 4265059426370277555
+    second: fire-attack_16
+  - first:
+      213: 5268651214299979841
+    second: fire-attack_17
+  - first:
+      213: 1527627899892766641
+    second: fire-attack_18
+  - first:
+      213: -8993689778093603587
+    second: fire-attack_19
+  - first:
+      213: 4981779033530101898
+    second: fire-attack_20
+  - first:
+      213: 8500782837868371610
+    second: fire-attack_21
+  - first:
+      213: 2627979302112101741
+    second: fire-attack_22
+  - first:
+      213: 4961081706907929508
+    second: fire-attack_23
+  - first:
+      213: 6202931664169874132
+    second: fire-attack_24
+  - first:
+      213: 7945379869260156030
+    second: fire-attack_25
+  - first:
+      213: -2530927308320187882
+    second: fire-attack_26
+  - first:
+      213: 7828869541498694389
+    second: fire-attack_27
+  - first:
+      213: 2901977003001125229
+    second: fire-attack_28
+  - first:
+      213: 6425713964130203707
+    second: fire-attack_29
+  - first:
+      213: 7345606100164576268
+    second: fire-attack_30
+  - first:
+      213: -2585837134657468813
+    second: fire-attack_31
+  - first:
+      213: 5064361104312703453
+    second: fire-attack_32
+  - first:
+      213: 9117967265914155188
+    second: fire-attack_33
+  - first:
+      213: 8126634704138687231
+    second: fire-attack_34
+  - first:
+      213: -635292927266433291
+    second: fire-attack_35
+  - first:
+      213: -5831292639286347456
+    second: fire-attack_36
+  - first:
+      213: -7336938402923723654
+    second: fire-attack_37
+  - first:
+      213: -4243977566218236903
+    second: fire-attack_38
+  - first:
+      213: -3418078663835387930
+    second: fire-attack_39
+  - first:
+      213: -4853096905252339601
+    second: fire-attack_40
+  - first:
+      213: -3707628854705974857
+    second: fire-attack_41
+  - first:
+      213: 2763175873226760953
+    second: fire-attack_42
+  - first:
+      213: 2090878646588566834
+    second: fire-attack_43
+  - first:
+      213: 8843034373178789092
+    second: fire-attack_44
+  - first:
+      213: 384795693006331838
+    second: fire-attack_45
+  - first:
+      213: -8357698072633392415
+    second: fire-attack_46
+  - first:
+      213: -132873961594566703
+    second: fire-attack_47
+  - first:
+      213: -2166421778385877051
+    second: fire-attack_48
+  - first:
+      213: -3382720081481740750
+    second: fire-attack_49
+  - first:
+      213: 5609009366899180917
+    second: fire-attack_50
+  - first:
+      213: -2324079398539227639
+    second: fire-attack_51
+  - first:
+      213: 5745783590467694349
+    second: fire-attack_52
+  - first:
+      213: 7564834101012453094
+    second: fire-attack_53
+  - first:
+      213: -1275941584126902614
+    second: fire-attack_54
+  - first:
+      213: 4348449961047930488
+    second: fire-attack_55
+  - first:
+      213: -2016155586976480299
+    second: fire-attack_56
+  - first:
+      213: -7142362083846440872
+    second: fire-attack_57
+  - first:
+      213: 8694883986184753186
+    second: fire-attack_58
+  - first:
+      213: 4744885939866720775
+    second: fire-attack_59
+  - first:
+      213: -2579904566121345354
+    second: fire-attack_60
+  - first:
+      213: -4544388526819048302
+    second: fire-attack_61
+  - first:
+      213: -6431280806468570990
+    second: fire-attack_62
+  - first:
+      213: 1861562640127964452
+    second: fire-attack_63
+  - first:
+      213: -4816111155686520788
+    second: fire-attack_64
+  - first:
+      213: -428021027837971343
+    second: fire-attack_65
+  - first:
+      213: -6777351924777348307
+    second: fire-attack_66
+  - first:
+      213: -2185330504662124010
+    second: fire-attack_67
+  - first:
+      213: -4445907421695486294
+    second: fire-attack_68
+  - first:
+      213: 7324850671249020019
+    second: fire-attack_69
+  - first:
+      213: 5667368589235848678
+    second: fire-attack_70
+  - first:
+      213: 97526406797053056
+    second: fire-attack_71
+  - first:
+      213: 8290973756321218217
+    second: fire-attack_72
+  - first:
+      213: 6132336560409278685
+    second: fire-attack_73
+  - first:
+      213: 6603790725703488450
+    second: fire-attack_74
+  - first:
+      213: 4352642020739557423
+    second: fire-attack_75
+  - first:
+      213: 6572199651131296659
+    second: fire-attack_76
+  - first:
+      213: 7643168484960153032
+    second: fire-attack_77
+  - first:
+      213: 2399388496314222105
+    second: fire-attack_78
+  - first:
+      213: 7868004937644348138
+    second: fire-attack_79
+  - first:
+      213: -8990703963836241650
+    second: fire-attack_80
+  - first:
+      213: 9076657846592681218
+    second: fire-attack_81
+  - first:
+      213: -7721570271866839315
+    second: fire-attack_82
+  - first:
+      213: -3128709564212922613
+    second: fire-attack_83
+  - first:
+      213: 5362234253419614608
+    second: fire-attack_84
+  - first:
+      213: 468977720502340950
+    second: fire-attack_85
+  - first:
+      213: -2545813811112269163
+    second: fire-attack_86
+  - first:
+      213: -7432920288670193936
+    second: fire-attack_87
+  - first:
+      213: 4752946950837740411
+    second: fire-attack_88
+  - first:
+      213: 1106191951652600720
+    second: fire-attack_89
+  - first:
+      213: 3871396846683024191
+    second: fire-attack_90
+  - first:
+      213: -6674718388569102879
+    second: fire-attack_91
+  - first:
+      213: 2046633762686489068
+    second: fire-attack_92
+  - first:
+      213: -995547188745312116
+    second: fire-attack_93
+  - first:
+      213: -3418174545950814914
+    second: fire-attack_94
+  - first:
+      213: 8182142865871111321
+    second: fire-attack_95
+  - first:
+      213: 8063085770200258604
+    second: fire-attack_96
+  - first:
+      213: 2187563508566161346
+    second: fire-attack_97
+  - first:
+      213: -4699433773472475919
+    second: fire-attack_98
+  - first:
+      213: 1482344822993361064
+    second: fire-attack_99
+  - first:
+      213: 639262586330350826
+    second: fire-attack_100
+  - first:
+      213: -527093576412534029
+    second: fire-attack_101
+  - first:
+      213: 1754382910025929316
+    second: fire-attack_102
+  - first:
+      213: -3194264595237783241
+    second: fire-attack_103
+  - first:
+      213: 2007437649380164898
+    second: fire-attack_104
+  - first:
+      213: -3852257706863390547
+    second: fire-attack_105
+  - first:
+      213: 8546271144815267432
+    second: fire-attack_106
+  - first:
+      213: 1368173543593267359
+    second: fire-attack_107
+  - first:
+      213: 1586049317958898499
+    second: fire-attack_108
+  - first:
+      213: -5219910499262694068
+    second: fire-attack_109
+  - first:
+      213: -5310732133412082549
+    second: fire-attack_110
+  - first:
+      213: -1294330451095255269
+    second: fire-attack_111
+  - first:
+      213: -2140314014122708151
+    second: fire-attack_112
+  - first:
+      213: -4478317982043408258
+    second: fire-attack_113
+  - first:
+      213: 3154829047415335046
+    second: fire-attack_114
+  - first:
+      213: 7018134410403229668
+    second: fire-attack_115
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: fire-attack_0
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 1779
+        width: 8
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 752d923bbc174474d9f6b9c3fe2a5fbf
+      internalID: 5355155558836854353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire-attack_1
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 1779
+        width: 7
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ceafa6ee8d66df44b0c4e426d6f77f9
+      internalID: 4451320617357220323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire-attack_2
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 1779
+        width: 5
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66b408831f05bd64d8bc5c402183d6ad
+      internalID: 4938263607954642666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire-attack_3
+      rect:
+        serializedVersion: 2
+        x: 581
+        y: 1779
+        width: 6
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a9f547cb477cfb43be132d6177b8e73
+      internalID: 4265965580167913592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire-attack_4
+      rect:
+        serializedVersion: 2
+        x: 748
+        y: 1779
+        width: 8
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba19c88f96e9f914391cca437bbe9ba9
+      internalID: 409407191513285052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire-attack_6
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 1678
+        width: 29
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c0a973e14e176341be15c26bec627bc
+      internalID: -2386147399497433716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire-attack_7
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 1661
+        width: 41
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df6149cab08ec384880b0d28f7ab3f92
+      internalID: 8606638993559634025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire-attack_8
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 1553
+        width: 40
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5eb9ea6e970c6ce44b06a8ad5cbb207c
+      internalID: 3644200269321978422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire-attack_9
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 1554
+        width: 42
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e368f702e55f2d4a9d2bf903387085b
+      internalID: 2443755056804675781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire-attack_10
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 1554
+        width: 44
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f965237dde229bd41803b33655ac2eac
+      internalID: -5983375859141512803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire-attack_11
+      rect:
+        serializedVersion: 2
+        x: 584
+        y: 1556
+        width: 43
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ddb77d5b1e8867640a70464d420dedce
+      internalID: -5477075720641006177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire-attack_12
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 1460
+        width: 41
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21b207c10fd6dbc40a84f6cbfda10cb6
+      internalID: -5685303595689743180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire-attack_13
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 1464
+        width: 29
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45af4ec4dc67c164d8ce947ba7648ec4
+      internalID: 5181099014888665005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire-attack_15
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 1469
+        width: 18
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e39c7709c83ebff409a2f17a75cf6e6a
+      internalID: -2694273085293952864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire-attack_16
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 1476
+        width: 16
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5deb51422d4e7574a8b445395dd3d4f1
+      internalID: 4265059426370277555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire-attack_18
+      rect:
+        serializedVersion: 2
+        x: 777
+        y: 1486
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a3c895fc425ad244baf23b8474d9b39
+      internalID: 1527627899892766641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire-attack_22
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 1393
+        width: 29
+        height: 31
+      alignment: 9
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1d10adfa97fb5c4aa3277ad920f6412
+      internalID: 2627979302112101741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire-attack_23
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 1376
+        width: 41
+        height: 37
+      alignment: 9
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42ce6012468e10845b0deb83fbeeab22
+      internalID: 4961081706907929508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire-attack_24
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 1366
+        width: 43
+        height: 41
+      alignment: 9
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a041c49c7156b8b45a05438a7119de20
+      internalID: 6202931664169874132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire-attack_25
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 1256
+        width: 54
+        height: 51
+      alignment: 9
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aabdb158950d08446bc81994570659cd
+      internalID: 7945379869260156030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire-attack_26
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 1257
+        width: 56
+        height: 51
+      alignment: 9
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38a19a8eb42740b459e809b70393b77b
+      internalID: -2530927308320187882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire-attack_27
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 1257
+        width: 58
+        height: 50
+      alignment: 9
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b94958476ec6f9244af51961b8cd9e61
+      internalID: 7828869541498694389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire-attack_28
+      rect:
+        serializedVersion: 2
+        x: 587
+        y: 1256
+        width: 56
+        height: 51
+      alignment: 9
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9d9c2b4d60966a4b8f46c5df9dcd942
+      internalID: 2901977003001125229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire-attack_31
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 1158
+        width: 43
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8b7e96439f443c4d960209179b939b1
+      internalID: -2585837134657468813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire-attack_32
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 1163
+        width: 29
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c076884d6d098ba43af0dd03d7d84a33
+      internalID: 5064361104312703453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire-attack_33
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 1188
+        width: 4
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb9978547e2499e4391894f5aa14b03c
+      internalID: 9117967265914155188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire-attack_34
+      rect:
+        serializedVersion: 2
+        x: 461
+        y: 1169
+        width: 13
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eaafdc32c59763549be490ef7e58120e
+      internalID: 8126634704138687231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire-attack_35
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 1180
+        width: 10
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fc93ebf05ecaa94db717d5abe7d73aa
+      internalID: -635292927266433291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire-attack_36
+      rect:
+        serializedVersion: 2
+        x: 792
+        y: 1190
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7da962bf430d2264cbf6117d97515dff
+      internalID: -5831292639286347456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire-attack_37
+      rect:
+        serializedVersion: 2
+        x: 633
+        y: 1175
+        width: 7
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8efe6e236bdbf5b42b7f19754514463e
+      internalID: -7336938402923723654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire-attack_38
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 1186
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b32912d9006e414b896245e1792c4e7
+      internalID: -4243977566218236903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire-attack_40
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 1120
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cbf50eb3fd596c43b82656d9233f767
+      internalID: -4853096905252339601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire-attack_41
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 1108
+        width: 22
+        height: 31
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7aa811b8494bd1142ab9428c731b837f
+      internalID: -3707628854705974857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire-attack_42
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 1091
+        width: 41
+        height: 37
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 620e22908a5f05c488dd772f46ffcfd4
+      internalID: 2763175873226760953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire-attack_43
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 1079
+        width: 44
+        height: 40
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87823f731f99376458f9a24c8fd3950c
+      internalID: 2090878646588566834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire-attack_44
+      rect:
+        serializedVersion: 2
+        x: 587
+        y: 1066
+        width: 56
+        height: 51
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97225e8300f157a4380df1d019edfb21
+      internalID: 8843034373178789092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire-attack_45
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 955
+        width: 70
+        height: 67
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efe02ed7287364d4db95864bf4ed3f86
+      internalID: 384795693006331838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire-attack_46
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 956
+        width: 72
+        height: 67
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc5712ccce9dcbc42b1a1801c9a9b71d
+      internalID: -8357698072633392415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire-attack_47
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 956
+        width: 74
+        height: 66
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09a9c4442f6373a4ba1921bf31ade7ea
+      internalID: -132873961594566703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire-attack_48
+      rect:
+        serializedVersion: 2
+        x: 587
+        y: 955
+        width: 72
+        height: 67
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c61ec6700e1682344a9cdad6bbfb67a2
+      internalID: -2166421778385877051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire-attack_52
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 857
+        width: 58
+        height: 54
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ebb90ca540856a4a91b1cd48b0d5603
+      internalID: 5745783590467694349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire-attack_53
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 862
+        width: 29
+        height: 31
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5f488cd31895854c9bf0dcc51f00fe4
+      internalID: 7564834101012453094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire-attack_55
+      rect:
+        serializedVersion: 2
+        x: 472
+        y: 868
+        width: 18
+        height: 27
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5bee72b6cb9a0245a2574c1f61a1a85
+      internalID: 4348449961047930488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire-attack_56
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 874
+        width: 16
+        height: 23
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16a64ad004338044aa3a4ad67e5d08f3
+      internalID: -2016155586976480299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire-attack_57
+      rect:
+        serializedVersion: 2
+        x: 809
+        y: 888
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 508e11731ccfb744cb81f5c188c077c6
+      internalID: -7142362083846440872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire-attack_59
+      rect:
+        serializedVersion: 2
+        x: 817
+        y: 884
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99f897aaf4af3a547b61466a15aea9ef
+      internalID: 4744885939866720775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire-attack_61
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 818
+        width: 22
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3444ac9e6a4ffd44d924c0c8601859b1
+      internalID: -4544388526819048302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire-attack_62
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 830
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f07c10f3ede9b74e9ab5a7f26c3d5eb
+      internalID: -6431280806468570990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire-attack_63
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 802
+        width: 41
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3549e48252ae114429ad26c83b21e4e6
+      internalID: 1861562640127964452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire-attack_64
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 698
+        width: 40
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 412a6053d1703ce469a9db58c2670836
+      internalID: -4816111155686520788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire-attack_65
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 699
+        width: 42
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25fd44d76c540074ba5630ee02a11ba2
+      internalID: -428021027837971343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire-attack_66
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 699
+        width: 44
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1875da4d3f18cb4d8dc7d00a7fd19f1
+      internalID: -6777351924777348307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire-attack_67
+      rect:
+        serializedVersion: 2
+        x: 541
+        y: 698
+        width: 43
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e5195da0cb1f1547856e69cc578fa5f
+      internalID: -2185330504662124010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire-attack_68
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 609
+        width: 22
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2cea3f45aa4a424caeb29ce05019a1b
+      internalID: -4445907421695486294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire-attack_69
+      rect:
+        serializedVersion: 2
+        x: 379
+        y: 616
+        width: 13
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 431456ba47d4ceb49a217a6316ee0fac
+      internalID: 7324850671249020019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire-attack_70
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 635
+        width: 4
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3d136ff68dffcf4597985f3b0b82d69
+      internalID: 5667368589235848678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire-attack_71
+      rect:
+        serializedVersion: 2
+        x: 550
+        y: 622
+        width: 7
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df20f078cfbf2944889369704f6fc02d
+      internalID: 97526406797053056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire-attack_72
+      rect:
+        serializedVersion: 2
+        x: 556
+        y: 627
+        width: 10
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7ed2242c4d4bb340bfb00ed91131e92
+      internalID: 8290973756321218217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire-attack_73
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 632
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 817c517166f55434890e9477e640778d
+      internalID: 6132336560409278685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire-attack_74
+      rect:
+        serializedVersion: 2
+        x: 722
+        y: 636
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bab670f2e4bf441498270cf4529806ba
+      internalID: 6603790725703488450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire-attack_75
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 600
+        width: 41
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fb67273c8ea2f74aac570b7da17dbc6
+      internalID: 4352642020739557423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire-attack_76
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 621
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45bdaeef06395a447945b5f1f31b275f
+      internalID: 6572199651131296659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire-attack_77
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 533
+        width: 22
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a6121d97c51d524ba66b8b0e26260a2
+      internalID: 7643168484960153032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire-attack_78
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 545
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85e8977ce96bb2a48ac4c5103e7458fa
+      internalID: 2399388496314222105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire-attack_79
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 517
+        width: 41
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3fbffd58dff29d439bfea200e14496d
+      internalID: 7868004937644348138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire-attack_80
+      rect:
+        serializedVersion: 2
+        x: 373
+        y: 508
+        width: 43
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d96ce8c6bcbb7ac4490815ea932280c4
+      internalID: -8990703963836241650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire-attack_81
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 401
+        width: 54
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90d0a88798cb90a4ab694a0165e7e0fe
+      internalID: 9076657846592681218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire-attack_82
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 402
+        width: 56
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06bb261c6c0b4094ea42404dccf86a92
+      internalID: -7721570271866839315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire-attack_83
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 402
+        width: 58
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a2a75aae9738ee49925d18e98ee7102
+      internalID: -3128709564212922613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire-attack_84
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 401
+        width: 56
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01938f4c15fc09a4eac2c09308a4cc10
+      internalID: 5362234253419614608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire-attack_85
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 344
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7d23766f6070f4469cf796ae4e83c34
+      internalID: 468977720502340950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire-attack_86
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 303
+        width: 46
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48403c102e9fa44429e2f0a00d1e7333
+      internalID: -2545813811112269163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire-attack_87
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 310
+        width: 22
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dee22be2eb618f0438289dc4fac0b825
+      internalID: -7432920288670193936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire-attack_88
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 317
+        width: 13
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69fe655412454104cabd444e98740dfb
+      internalID: 4752946950837740411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire-attack_89
+      rect:
+        serializedVersion: 2
+        x: 373
+        y: 336
+        width: 4
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df480e62471ed9c4f8b758bd4502da08
+      internalID: 1106191951652600720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire-attack_90
+      rect:
+        serializedVersion: 2
+        x: 535
+        y: 326
+        width: 10
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ea8435db5d5ba643a1ad750c38edf01
+      internalID: 3871396846683024191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire-attack_91
+      rect:
+        serializedVersion: 2
+        x: 698
+        y: 332
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 265befb6a10dca8418881f3b50bba716
+      internalID: -6674718388569102879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire-attack_92
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 336
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 163c390374f0a7e42beac16470f0751d
+      internalID: 2046633762686489068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire-attack_93
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 322
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 783e89ae59dde1340be12792827d6fe0
+      internalID: -995547188745312116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire-attack_94
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 321
+        width: 7
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9368577b95d805d4082aeac113b217fd
+      internalID: -3418174545950814914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire-attack_95
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 248
+        width: 22
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3889a9e22f928247865c63b44bd1260
+      internalID: 8182142865871111321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire-attack_96
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 260
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c8ef31b1106c9146ad4cdf6b8068cf2
+      internalID: 8063085770200258604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire-attack_97
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 232
+        width: 41
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6aa1daa0093f93245bb8ca3fe67c65e9
+      internalID: 2187563508566161346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire-attack_98
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 224
+        width: 44
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb0ab10e1613d354d86210facdb63290
+      internalID: -4699433773472475919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire-attack_99
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 211
+        width: 56
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42cfdec29f57e0543b271c23652f285f
+      internalID: 1482344822993361064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire-attack_100
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 100
+        width: 70
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63b88579a8e2e6b498ecb08c1dc4d5d1
+      internalID: 639262586330350826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire-attack_101
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 101
+        width: 72
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a01afce54c6ff5b408419d65e4231e17
+      internalID: -527093576412534029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire-attack_102
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 101
+        width: 74
+        height: 66
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01a1694cfc11b654f82b30a45a7a6068
+      internalID: 1754382910025929316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire-attack_103
+      rect:
+        serializedVersion: 2
+        x: 509
+        y: 100
+        width: 72
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15cb1b35a78f7ac49b5e66270f54f8c3
+      internalID: -3194264595237783241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire-attack_104
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 51
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5287836b18939104a82a31866494af76
+      internalID: 2007437649380164898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire-attack_105
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 51
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d32ab93d7e05b4240ba36bb5781f486e
+      internalID: -3852257706863390547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire-attack_106
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 33
+        width: 7
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9412d940b10a4941b693195f6eebdf5
+      internalID: 8546271144815267432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire-attack_107
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 22
+        width: 13
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5c457efaceb0b4459086cc0c0f263a5
+      internalID: 1368173543593267359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire-attack_108
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 41
+        width: 4
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8c1f1079a06a49488c8fd81803d7493
+      internalID: 1586049317958898499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire-attack_109
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 32
+        width: 10
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0526304e9e694e41a463ed108093d33
+      internalID: -5219910499262694068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire-attack_110
+      rect:
+        serializedVersion: 2
+        x: 696
+        y: 39
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ece92434d9c887041ade31852194fafc
+      internalID: -5310732133412082549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire-attack_111
+      rect:
+        serializedVersion: 2
+        x: 698
+        y: 43
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9723f7f0900f62440b1a31b20573b10b
+      internalID: -1294330451095255269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire-attack_112
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 2
+        width: 46
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f475f79a88f9a2c4b81e314b3eedfea6
+      internalID: -2140314014122708151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire-attack_113
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 11
+        width: 22
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f9479a8788b4c94fbd6a40b26ba9637
+      internalID: -4478317982043408258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire-attack_114
+      rect:
+        serializedVersion: 2
+        x: 526
+        y: 27
+        width: 7
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb04152001d9fd9449aaf59b5bbc478e
+      internalID: 3154829047415335046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire-attack_115
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 23
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b72c43a213247c4d8ac3028a6e2a835
+      internalID: 7018134410403229668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

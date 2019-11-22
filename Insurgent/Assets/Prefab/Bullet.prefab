@@ -139,6 +139,7 @@ MonoBehaviour:
   rb: {fileID: 7433653908289360784}
   flashEffect: {fileID: 3465489546300393606, guid: 5ba5b562994b6c141ae7b6df323064ac,
     type: 3}
+  fire: {fileID: 8300000, guid: 394e8092717757e47bb02efcb7be11b7, type: 3}
 --- !u!96 &4679009432307842606
 TrailRenderer:
   serializedVersion: 2

@@ -27,18 +27,18 @@ public class Weapon : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetKey(ca) || Input.GetKey(ca1))
+        if (Input.GetKey(ca) || Input.GetKey(ca1) && timeBtwAttack <= 0)
         {
             chargeTimer += Time.deltaTime;
             animator.SetBool("IsCharging", true);
             PlayerMovement rs = GetComponent<PlayerMovement>();
             rs.runSpeed = 0;
 
-            if (chargeTimer > 1)
+            if (chargeTimer > 2)
             {
                 fullCharge = true;
             }
-            else if (chargeTimer < 1 || animator.GetBool("IsCrouching") == true || animator.GetBool("IsJumping") == true)
+            else if (chargeTimer < 2 || animator.GetBool("IsCrouching") == true || animator.GetBool("IsJumping") == true)
             {
                 fullCharge = false;
             }
@@ -103,6 +103,8 @@ public class Weapon : MonoBehaviour
 
         if (Input.GetButtonDown("Fire3") && animator.GetBool("IsCrouching") == false && animator.GetBool("IsJumping") == false)
         {
+            CharacterController2D CC = GetComponent<CharacterController2D>();
+            CC.playerdead = true;
             spd = 0;
             animator.SetBool("ultReady", true);
             Invoke("Ult", 1.45f);
@@ -120,6 +122,7 @@ public class Weapon : MonoBehaviour
 
     void Shoot()
     {
+        //smScript.PlaySound("fire_shoot1");
         animator.SetBool("IsShooting", true);
         Instantiate(bulletPrefab, firePoint.position, firePoint.rotation);
         chargeTimer = 0;
@@ -141,6 +144,8 @@ public class Weapon : MonoBehaviour
     {
         animator.SetBool("ultReady", false);
         spd = 30;
+        CharacterController2D CC = GetComponent<CharacterController2D>();
+        CC.playerdead = false;
     }
 
 }

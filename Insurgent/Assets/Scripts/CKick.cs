@@ -24,6 +24,14 @@ public class CKick : MonoBehaviour
         {
             coll.GetComponent<Enemy_fireh>().TakeDamage(damage);
         }
+        else if (coll.CompareTag("LavaBoss"))
+        {
+            coll.GetComponent<bossScript>().TakeDamage(damage);
+        }
+        else if (coll.CompareTag("bat"))
+        {
+            coll.GetComponent<batScript>().TakeDamage(damage);
+        }
         Instantiate(kickEffect, transform.position, transform.rotation);
     }
 }
