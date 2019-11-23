@@ -17,8 +17,10 @@ public class Weapon : MonoBehaviour
     public KeyCode ca;
     public KeyCode ca1;
     public bool fullCharge = false;
+    private bool chargingisgoing;
 
     private int spd = 30;
+    public int ultMeter = 0;
 
     void Start()
     {
@@ -52,6 +54,11 @@ public class Weapon : MonoBehaviour
             chargeTimer = 0;
         }
 
+        if(Input.GetButtonDown("Fire1") && animator.GetBool("IsCharging") == true)
+        {
+            smScript.PlaySound("chargeattack");
+        }
+
         if (timeBtwAttack <= 0)
         {
             if (Input.GetKey(ca) && fullCharge == true && animator.GetBool("IsCrouching") == false && animator.GetBool("IsJumping") == false)
@@ -74,6 +81,7 @@ public class Weapon : MonoBehaviour
 
             if (Input.GetButtonUp("Fire1") && fullCharge == false && animator.GetBool("IsCrouching") == false && animator.GetBool("IsJumping") == false)
             {
+                smScript.StopSound("stop");
                 timeBtwAttack = startTimeBtwAttack;
                 animator.SetTrigger("fullcharge");
                 animator.SetBool("IsCharging", false);
@@ -83,6 +91,7 @@ public class Weapon : MonoBehaviour
 
             if (Input.GetButtonDown("Fire2"))
             {
+                smScript.PlaySound("kick-attack");
                 //timeBtwAttack = startTimeBtwAttack;
                 animator.SetBool("IsKicking", true);
                 Invoke("Delay", 0.2f);
@@ -90,6 +99,7 @@ public class Weapon : MonoBehaviour
 
             if (pm.jj == true && Input.GetButtonDown("Fire2"))
             {
+                smScript.PlaySound("kick-attack");
                 //timeBtwAttack = startTimeBtwAttack;
                 animator.SetBool("FlyKick", true);
                 animator.SetBool("IsJumping", false);
@@ -122,7 +132,9 @@ public class Weapon : MonoBehaviour
 
     void Shoot()
     {
-        //smScript.PlaySound("fire_shoot1");
+        smScript.StopSound("stop");
+        smScript.PlaySound("playershoot");
+        smScript.PlaySound("fire_shoot1");
         animator.SetBool("IsShooting", true);
         Instantiate(bulletPrefab, firePoint.position, firePoint.rotation);
         chargeTimer = 0;
@@ -130,6 +142,7 @@ public class Weapon : MonoBehaviour
 
     void ShootBlue()
     {
+        //smScript.PlaySound("playershoot2");
         animator.SetBool("IsShooting", true);
         Instantiate(blueBulletPrefab, firePoint.position, firePoint.rotation);
         chargeTimer = 0;

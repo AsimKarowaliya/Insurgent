@@ -4,26 +4,36 @@ using UnityEngine;
 
 public class idleBehaviour : StateMachineBehaviour
 {
+    public float tba;
     private float timer;
     public float minT;
     public float maxT;
     
-    public int length = 3;
+    public int length = 1;
 
-    public GameObject enemyAI;
-    private Transform AI_pos;
+    public GameObject Fireball;
+    private Transform FirePoint_pos;
     private Transform playerPos;
 
     override public void OnStateEnter(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
     {
         timer = Random.Range(minT, maxT);
         playerPos = GameObject.FindGameObjectWithTag("Player").transform;
-        AI_pos = GameObject.FindGameObjectWithTag("targer_ai").GetComponent<Transform>();
+        FirePoint_pos = GameObject.FindGameObjectWithTag("targer_ai").GetComponent<Transform>();
 
-        for (int i = 0; i < length; i++)
-        {
-            Instantiate(enemyAI, AI_pos.position, AI_pos.rotation);
-        }
+        //for (int i = 0; i < length; i++)
+        //{
+        //    //if(tba <= 0)
+        //    //{
+        //    //    Instantiate(Fireball, FirePoint_pos.position, FirePoint_pos.rotation);
+        //    //    tba = 2f;
+        //    //}
+        //    //else
+        //    //{
+        //    //    tba -= Time.deltaTime;
+        //    //}
+        //    //Instantiate(Fireball, FirePoint_pos.position, FirePoint_pos.rotation);
+        //}
 
         animator.SetBool("isIdle", true);
     }
@@ -38,6 +48,16 @@ public class idleBehaviour : StateMachineBehaviour
         else
         {
             timer -= Time.deltaTime;
+        }
+
+        if (tba <= 0)
+        {
+            Instantiate(Fireball, FirePoint_pos.position, FirePoint_pos.rotation);
+            tba = 2f;
+        }
+        else
+        {
+            tba -= Time.deltaTime;
         }
 
         if (animator.transform.position.x < playerPos.position.x)

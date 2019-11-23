@@ -91,10 +91,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: adf676625a6947642bc4a7f125e761c1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  minT: 4
-  maxT: 8
-  length: 2
-  enemyAI: {fileID: 2265244091854454963, guid: 6aea028d0b8246e4898b6fee206dcb69, type: 3}
+  tba: 3
+  minT: 8
+  maxT: 10
+  length: 5
+  Fireball: {fileID: 3172740884429179391, guid: cd287bebaefaa7d46b589210e6d869b6,
+    type: 3}
 --- !u!1101 &-7064505907795808760
 AnimatorStateTransition:
   m_ObjectHideFlags: 1
@@ -434,7 +436,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   minT: 5
   maxT: 10
-  speed: 1
+  length: 1
+  enemyAI: {fileID: 2265244091854454963, guid: 6aea028d0b8246e4898b6fee206dcb69, type: 3}
+  speed: 2
 --- !u!1101 &-798673990569841643
 AnimatorStateTransition:
   m_ObjectHideFlags: 1
@@ -512,18 +516,6 @@ AnimatorController:
     m_DefaultInt: 0
     m_DefaultBool: 0
     m_Controller: {fileID: 0}
-  - m_Name: isIdle
-    m_Type: 4
-    m_DefaultFloat: 0
-    m_DefaultInt: 0
-    m_DefaultBool: 0
-    m_Controller: {fileID: 0}
-  - m_Name: isWalking
-    m_Type: 4
-    m_DefaultFloat: 0
-    m_DefaultInt: 0
-    m_DefaultBool: 0
-    m_Controller: {fileID: 0}
   - m_Name: meltdown
     m_Type: 9
     m_DefaultFloat: 0
@@ -542,6 +534,12 @@ AnimatorController:
     m_DefaultInt: 0
     m_DefaultBool: 0
     m_Controller: {fileID: 0}
+  - m_Name: reformUp
+    m_Type: 9
+    m_DefaultFloat: 0
+    m_DefaultInt: 0
+    m_DefaultBool: 0
+    m_Controller: {fileID: 0}
   - m_Name: isUp
     m_Type: 4
     m_DefaultFloat: 0
@@ -554,8 +552,14 @@ AnimatorController:
     m_DefaultInt: 0
     m_DefaultBool: 0
     m_Controller: {fileID: 0}
-  - m_Name: reformUp
-    m_Type: 9
+  - m_Name: isIdle
+    m_Type: 4
+    m_DefaultFloat: 0
+    m_DefaultInt: 0
+    m_DefaultBool: 0
+    m_Controller: {fileID: 0}
+  - m_Name: isWalking
+    m_Type: 4
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
@@ -610,7 +614,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5d7c3b47053261e4a9caa1524b9145b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  timer: 1
+  timer: 8
 --- !u!114 &416276538046065217
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -635,8 +639,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: db4bc2574a24ae34da93a0e01443ef3b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  minT: 4
-  maxT: 8
+  minT: 8
+  maxT: 12
 --- !u!1102 &587082294421943464
 AnimatorState:
   serializedVersion: 5
@@ -834,8 +838,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e95cb25a58d343748b661014427d5d59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  minT: 10
-  maxT: 15
+  minT: 8
+  maxT: 12
 --- !u!1101 &3255988917856901736
 AnimatorStateTransition:
   m_ObjectHideFlags: 1
@@ -930,8 +934,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1c2e603865e49f944801e921ecb2a5fa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  minT: 10
-  maxT: 15
+  minT: 8
+  maxT: 12
 --- !u!1101 &4340313363971174177
 AnimatorStateTransition:
   m_ObjectHideFlags: 1
@@ -949,7 +953,7 @@ AnimatorStateTransition:
   m_Mute: 0
   m_IsExit: 0
   serializedVersion: 3
-  m_TransitionDuration: 0
+  m_TransitionDuration: 0.5
   m_TransitionOffset: 0
   m_ExitTime: 1
   m_HasExitTime: 1
@@ -1049,7 +1053,7 @@ AnimatorStateTransition:
   m_Mute: 0
   m_IsExit: 0
   serializedVersion: 3
-  m_TransitionDuration: 0
+  m_TransitionDuration: 0.5
   m_TransitionOffset: 0
   m_ExitTime: 1
   m_HasExitTime: 1

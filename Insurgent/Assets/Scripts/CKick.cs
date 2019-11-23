@@ -14,22 +14,27 @@ public class CKick : MonoBehaviour
 
         if (coll.gameObject.CompareTag("Enemy"))
         {
+            smScript.PlaySound("kick-hit");
             coll.gameObject.GetComponent<Enemy>().TakeDamage(damage);
         }
         else if (coll.CompareTag("EnemyB"))
         {
+            smScript.PlaySound("kick-hit");
             coll.GetComponent<EnemyB>().TakeDamage(damage);
         }
         else if (coll.CompareTag("Enemy_Fire"))
         {
+            smScript.PlaySound("kick-hit");
             coll.GetComponent<Enemy_fireh>().TakeDamage(damage);
         }
         else if (coll.CompareTag("LavaBoss"))
         {
+            smScript.PlaySound("kick-hit");
             coll.GetComponent<bossScript>().TakeDamage(damage);
         }
         else if (coll.CompareTag("bat"))
         {
+            smScript.PlaySound("kick-hit");
             coll.GetComponent<batScript>().TakeDamage(damage);
         }
         Instantiate(kickEffect, transform.position, transform.rotation);

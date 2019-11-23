@@ -16,6 +16,8 @@ TagManager:
   - ScreenShake
   - targer_ai
   - bat
+  - targer_ai1
+  - targer_ai2
   layers:
   - Default
   - TransparentFX

@@ -174,6 +174,8 @@ MonoBehaviour:
     type: 3}
   bodyEffect: {fileID: 2224499500310403318, guid: 2588ee776fcd6d548b959d0ed972ab55,
     type: 3}
+  redeffect: {fileID: 1788173242563993871, guid: aae023e8919d14243a2a4dfe1d18d50e,
+    type: 3}
   FireAnim: {fileID: 2265244090155696741}
 --- !u!114 &2265244090155696739
 MonoBehaviour:

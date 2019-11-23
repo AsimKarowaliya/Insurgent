@@ -74,7 +74,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damage: 20
-  ultTime: 3
+  ultTime: 2
 --- !u!50 &3569668344236270098
 Rigidbody2D:
   serializedVersion: 4

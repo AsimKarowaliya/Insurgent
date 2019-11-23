@@ -9,6 +9,7 @@ public class Enemy_fireh : MonoBehaviour
     public float health = 100;
     public GameObject DeathEffect;
     public GameObject bodyEffect;
+    public GameObject redeffect;
     public Animator FireAnim;
 
     public void TakeDamage(int damage)
@@ -36,6 +37,7 @@ public class Enemy_fireh : MonoBehaviour
         {
             Instantiate(DeathEffect, transform.position, Quaternion.identity);
             Instantiate(bodyEffect, transform.position, Quaternion.identity);
+            Instantiate(redeffect, transform.position, Quaternion.identity);
             //FireAnim.SetBool("enemydead", true);
             Destroy(gameObject);
             Destroy(healthBar);

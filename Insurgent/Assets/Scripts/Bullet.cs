@@ -27,17 +27,17 @@ public class Bullet : MonoBehaviour
 
         if (hitInfo.CompareTag("Enemy"))
         {
-            shake.CamShake();
+            //shake.CamShake();
             hitInfo.GetComponent<Enemy>().TakeDamage(damage);
         }
         else if (hitInfo.CompareTag("EnemyB"))
         {
-            shake.CamShake();
+            //shake.CamShake();
             hitInfo.GetComponent<EnemyB>().TakeDamage(damage);
         }
         else if (hitInfo.CompareTag("Enemy_Fire"))
         {
-            shake.CamShake();
+            //shake.CamShake();
             hitInfo.GetComponent<Enemy_fireh>().TakeDamage(damage);
         }
         else if (hitInfo.CompareTag("Tiles"))
@@ -46,7 +46,7 @@ public class Bullet : MonoBehaviour
         }
         else if (hitInfo.CompareTag("LavaBoss"))
         {
-            shake.CamShake();
+            //shake.CamShake();
             Destroy(gameObject);
             hitInfo.GetComponent<bossScript>().TakeDamage(damage);
         }
