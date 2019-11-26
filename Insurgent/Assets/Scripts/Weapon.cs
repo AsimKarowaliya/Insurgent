@@ -20,7 +20,7 @@ public class Weapon : MonoBehaviour
     private bool chargingisgoing;
 
     private int spd = 30;
-    public int ultMeter = 0;
+    public float ultMeter = 0f;
 
     void Start()
     {
@@ -29,11 +29,11 @@ public class Weapon : MonoBehaviour
 
     void Update()
     {
+        PlayerMovement rs = GetComponent<PlayerMovement>();
         if (Input.GetKey(ca) || Input.GetKey(ca1) && timeBtwAttack <= 0)
         {
             chargeTimer += Time.deltaTime;
             animator.SetBool("IsCharging", true);
-            PlayerMovement rs = GetComponent<PlayerMovement>();
             rs.runSpeed = 0;
 
             if (chargeTimer > 2)
@@ -49,7 +49,6 @@ public class Weapon : MonoBehaviour
         else
         {
             animator.SetBool("IsCharging", false);
-            PlayerMovement rs = GetComponent<PlayerMovement>();
             rs.runSpeed = spd;
             chargeTimer = 0;
         }
@@ -111,7 +110,7 @@ public class Weapon : MonoBehaviour
             timeBtwAttack -= Time.deltaTime;
         }
 
-        if (Input.GetButtonDown("Fire3") && animator.GetBool("IsCrouching") == false && animator.GetBool("IsJumping") == false)
+        if (Input.GetButtonDown("Fire3") && ultBarscript.ultMeter >= 10f && animator.GetBool("IsCrouching") == false && animator.GetBool("IsJumping") == false)
         {
             CharacterController2D CC = GetComponent<CharacterController2D>();
             CC.playerdead = true;
@@ -162,60 +161,3 @@ public class Weapon : MonoBehaviour
     }
 
 }
-
-//    if (timeBtwAttack <= 0)
-//    {
-
-//        if (Input.GetKey(ca))
-//        {
-//            chargeTimer += Time.deltaTime;
-//            animator.SetBool("IsCharging", true);
-//            PlayerMovement rs = GetComponent<PlayerMovement>();
-//            rs.runSpeed = 0;
-//        }
-//        else if (chargeTimer < 2 || animator.GetBool("IsCrouching") == true || animator.GetBool("IsJumping") == true)
-//        {
-//            PlayerMovement rs = GetComponent<PlayerMovement>();
-//            rs.runSpeed = 40;
-//            chargeTimer = 0;
-//            animator.SetBool("IsCharging", false);
-//        }
-
-//        if (Input.GetKey(ca) && animator.GetBool("IsCrouching") == false && chargeTimer > 2 && animator.GetBool("IsJumping") == false)
-//        {
-//            timeBtwAttack = startTimeBtwAttack;
-//            animator.SetTrigger("fullcharge");
-//            animator.SetBool("IsCharging", false);
-//            ShootBlue();
-//            Invoke("Delay", 0.3f);
-//        }
-
-//        if (Input.GetButtonUp("Fire1") && animator.GetBool("IsCrouching") == false && chargeTimer < 2 && animator.GetBool("IsJumping") == false)
-//        {
-//            timeBtwAttack = startTimeBtwAttack;
-//            animator.SetTrigger("fullcharge");
-//            animator.SetBool("IsCharging", false);
-//            Shoot();
-//            Invoke("Delay", 0.3f);
-//        }
-
-//        if (Input.GetButtonDown("Fire2"))
-//        {
-//            timeBtwAttack = startTimeBtwAttack;
-//            animator.SetBool("IsKicking", true);
-//            // play kick sound
-//            Invoke("Delay", 0.2f);
-//        }
-
-//        if (pm.jj == true && Input.GetButtonDown("Fire2"))
-//        {
-//            timeBtwAttack = startTimeBtwAttack;
-//            animator.SetBool("FlyKick", true);
-//            animator.SetBool("IsJumping", false);
-//        }
-
-//    }
-//    else
-//    {
-//        timeBtwAttack -= Time.deltaTime;
-//    }

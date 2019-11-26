@@ -35,6 +35,7 @@ public class Enemy : MonoBehaviour
 
         if (health <= 0)
         {
+            ultBarscript.ultMeter += 0.5f;
             Instantiate(DeathEffect, transform.position, Quaternion.identity);
             Destroy(gameObject);
             // enemy explosion sound
@@ -61,6 +62,7 @@ public class Enemy : MonoBehaviour
         HealthSystem hs = thePlayer.GetComponent<HealthSystem>();
         if (coll.CompareTag("Player") && hs.playerresettime <= 0)
         {
+            ultBarscript.ultMeter += 0.5f;
             Instantiate(DeathEffect, transform.position, Quaternion.identity);
             Destroy(gameObject);
             HealthSystem SN = coll.GetComponent<HealthSystem>();

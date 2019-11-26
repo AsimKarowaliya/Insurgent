@@ -84,6 +84,7 @@ public class EnemyB : MonoBehaviour
 
         if (health <= 0)
         {
+            ultBarscript.ultMeter += 0.5f;
             Instantiate(DeathEffect, transform.position, Quaternion.identity);
             Destroy(gameObject);
         }

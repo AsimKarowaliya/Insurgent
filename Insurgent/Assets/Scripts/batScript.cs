@@ -50,6 +50,7 @@ public class batScript : MonoBehaviour
         smScript.PlaySound("bat/Die1");
         if (health <= 0)
         {
+            ultBarscript.ultMeter += 0.5f;
             Destroy(gameObject);
             Instantiate(DeathEffect, transform.position, Quaternion.identity);
         }
@@ -61,6 +62,7 @@ public class batScript : MonoBehaviour
         HealthSystem hs = thePlayer.GetComponent<HealthSystem>();
         if (coll.CompareTag("Player") && hs.playerresettime <= 0 && !az.activeInHierarchy)
         {
+            ultBarscript.ultMeter += 0.5f;
             smScript.PlaySound("bat/Attack2");
             HealthSystem SN = coll.GetComponent<HealthSystem>();
             SN.playerHealth -= 1;

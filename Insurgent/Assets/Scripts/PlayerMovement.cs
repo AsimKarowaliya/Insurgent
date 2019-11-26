@@ -26,6 +26,7 @@ public class PlayerMovement : MonoBehaviour
 
         if (Input.GetButtonDown("Jump") && CC.playerdead == false)
         {
+            smScript.StopSound("stop");
             jump = true;
             jj = true;
             animator.SetBool("IsJumping", true);

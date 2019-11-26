@@ -78,6 +78,7 @@ public class bossScript : MonoBehaviour
         HealthSystem hs = thePlayer.GetComponent<HealthSystem>();
         if (coll.CompareTag("Player") && hs.playerresettime <= 0)
         {
+            ultBarscript.ultMeter += 0.5f;
             HealthSystem SN = coll.GetComponent<HealthSystem>();
             SN.playerHealth -= 1;
             SN.playerresettime = 2;

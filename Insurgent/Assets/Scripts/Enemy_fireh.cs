@@ -35,6 +35,7 @@ public class Enemy_fireh : MonoBehaviour
 
         if (health <= 0)
         {
+            ultBarscript.ultMeter += 0.5f;
             Instantiate(DeathEffect, transform.position, Quaternion.identity);
             Instantiate(bodyEffect, transform.position, Quaternion.identity);
             Instantiate(redeffect, transform.position, Quaternion.identity);
@@ -65,6 +66,7 @@ public class Enemy_fireh : MonoBehaviour
         HealthSystem hs = thePlayer.GetComponent<HealthSystem>();
         if (coll.CompareTag("Player") && hs.playerresettime <= 0)
         {
+            ultBarscript.ultMeter += 0.5f;
             Instantiate(DeathEffect, transform.position, Quaternion.identity);
             Instantiate(bodyEffect, transform.position, Quaternion.identity);
             FireAnim.SetBool("enemydead", true);

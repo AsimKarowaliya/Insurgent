@@ -5,12 +5,19 @@ using UnityEngine.UI;
 
 public class chargescript : MonoBehaviour
 {
-    public Image chargebar;
+    //public Image chargebar;
     public float charge = 0;
     private float tba;
     private float stba = 1;
     public KeyCode ck;
     public KeyCode ck1;
+
+    private Transform ultimg;
+
+    void Start()
+    {
+        ultimg = this.GetComponent<Transform>();   
+    }
 
     void Update()
     {
@@ -31,7 +38,9 @@ public class chargescript : MonoBehaviour
                 tba = stba;
             }
 
-            chargebar.fillAmount = charge / 2;
+            ultimg.localScale = new Vector3((charge/2)*12, 4.6f, 0);
+
+            //chargebar.fillAmount = charge / 2;
         }
         else
         {
