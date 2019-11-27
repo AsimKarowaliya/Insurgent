@@ -36,6 +36,7 @@ public class reformBehaviour : StateMachineBehaviour
         {
             animator.transform.localScale = new Vector2(1, 1);
         }
+
     }
 
     override public void OnStateExit(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)

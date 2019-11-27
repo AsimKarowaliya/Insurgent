@@ -117,7 +117,7 @@ public class Weapon : MonoBehaviour
             spd = 0;
             animator.SetBool("ultReady", true);
             Invoke("Ult", 1.45f);
-            Invoke("resetms", 4.45f);
+            Invoke("resetms", 3.45f);
         }
 
     }

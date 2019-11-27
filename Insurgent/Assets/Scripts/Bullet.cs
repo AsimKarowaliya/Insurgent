@@ -27,19 +27,19 @@ public class Bullet : MonoBehaviour
 
         if (hitInfo.CompareTag("Enemy"))
         {
-            ultBarscript.ultMeter += 0.1f;
+            ultBarscript.ultMeter += 5f;
             //shake.CamShake();
             hitInfo.GetComponent<Enemy>().TakeDamage(damage);
         }
         else if (hitInfo.CompareTag("EnemyB"))
         {
-            ultBarscript.ultMeter += 0.1f;
+            ultBarscript.ultMeter += 0.5f;
             //shake.CamShake();
             hitInfo.GetComponent<EnemyB>().TakeDamage(damage);
         }
         else if (hitInfo.CompareTag("Enemy_Fire"))
         {
-            ultBarscript.ultMeter += 0.1f;
+            ultBarscript.ultMeter += 0.5f;
             //shake.CamShake();
             hitInfo.GetComponent<Enemy_fireh>().TakeDamage(damage);
         }
@@ -49,16 +49,22 @@ public class Bullet : MonoBehaviour
         }
         else if (hitInfo.CompareTag("LavaBoss"))
         {
-            ultBarscript.ultMeter += 0.1f;
+            ultBarscript.ultMeter += 0.5f;
             //shake.CamShake();
             Destroy(gameObject);
             hitInfo.GetComponent<bossScript>().TakeDamage(damage);
         }
         else if (hitInfo.CompareTag("bat"))
         {
-            ultBarscript.ultMeter += 0.1f;
+            ultBarscript.ultMeter += 0.5f;
             Destroy(gameObject);
             hitInfo.GetComponent<batScript>().TakeDamage(damage);
+        }
+        else if (hitInfo.CompareTag("Wiz"))
+        {
+            ultBarscript.ultMeter += 0.5f;
+            //shake.CamShake();
+            hitInfo.GetComponent<wizScript>().TakeDamage(damage);
         }
         else
         {

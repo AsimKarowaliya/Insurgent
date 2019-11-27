@@ -37,6 +37,11 @@ public class CKick : MonoBehaviour
             smScript.PlaySound("kick-hit");
             coll.GetComponent<batScript>().TakeDamage(damage);
         }
+        else if (coll.CompareTag("Wiz"))
+        {
+            smScript.PlaySound("kick-hit");
+            coll.GetComponent<wizScript>().TakeDamage(damage);
+        }
         Instantiate(kickEffect, transform.position, transform.rotation);
     }
 }
