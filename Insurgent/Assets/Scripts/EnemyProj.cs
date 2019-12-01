@@ -36,7 +36,7 @@ public class EnemyProj : MonoBehaviour
 
         if (coll.CompareTag("Player") && hs.playerresettime <= 0)
         {
-            ultBarscript.ultMeter += 0.1f;
+            ultBarscript.ultMeter += 0.5f;
             DestroyProj();
             HealthSystem SN = coll.GetComponent<HealthSystem>();
             SN.playerHealth -= 1;

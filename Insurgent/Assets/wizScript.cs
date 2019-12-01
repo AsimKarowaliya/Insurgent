@@ -16,6 +16,7 @@ public class wizScript : MonoBehaviour
     public GameObject proj;
     private float tba;
     public float stba;
+    public float attackDistance = 7f;
 
     void Start()
     {
@@ -38,7 +39,7 @@ public class wizScript : MonoBehaviour
         }
 
         var dist = Vector2.Distance(playerPos.position, this.transform.position);
-        if (dist <= 10)
+        if (dist <= attackDistance)
         {
             if(tba <= 0)
             {
@@ -77,13 +78,13 @@ public class wizScript : MonoBehaviour
     {
         if (coll.CompareTag("Bullet"))
         {
-            //GetComponent<SpriteRenderer>().color = Color.red;
+            GetComponent<SpriteRenderer>().color = Color.red;
             Invoke("ResetMat", 0.2f);
         }
 
         if (coll.CompareTag("flykick"))
         {
-            //GetComponent<SpriteRenderer>().color = Color.red;
+            GetComponent<SpriteRenderer>().color = Color.red;
             Invoke("ResetMat", 0.2f);
         }
     }
@@ -95,6 +96,13 @@ public class wizScript : MonoBehaviour
 
     void ResetMat()
     {
-        //GetComponent<SpriteRenderer>().color = Color.white;
+        if(h == 5)
+        {
+            GetComponent<SpriteRenderer>().color = Color.white;
+        }
+        else
+        {
+            GetComponent<SpriteRenderer>().color = new Color((93/255), (220/255), 1, 1);
+        }
     }
 }

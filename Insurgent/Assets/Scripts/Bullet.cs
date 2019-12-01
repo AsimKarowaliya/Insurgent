@@ -27,7 +27,7 @@ public class Bullet : MonoBehaviour
 
         if (hitInfo.CompareTag("Enemy"))
         {
-            ultBarscript.ultMeter += 5f;
+            ultBarscript.ultMeter += 0.5f;
             //shake.CamShake();
             hitInfo.GetComponent<Enemy>().TakeDamage(damage);
         }

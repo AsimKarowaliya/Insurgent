@@ -23,7 +23,7 @@ public class wizFireBall : MonoBehaviour
 
         if (coll.CompareTag("Player") && hs.playerresettime <= 0)
         {
-            ultBarscript.ultMeter += 0.1f;
+            ultBarscript.ultMeter += 0.5f;
             Destroy(gameObject);
             Instantiate(flash, transform.position, transform.rotation);
             HealthSystem SN = coll.GetComponent<HealthSystem>();
