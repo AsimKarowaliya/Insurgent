@@ -19,6 +19,7 @@ TagManager:
   - targer_ai1
   - targer_ai2
   - Wiz
+  - platform
   layers:
   - Default
   - TransparentFX
